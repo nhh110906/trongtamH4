@@ -580,3 +580,13 @@
     font-size: 1.1rem;
   }
 }
+
+.write-offline-note {
+  font-size: 0.85rem;
+  color: var(--text-muted, #666);
+  margin: 0.75rem 0;
+  padding: 0.5rem 0.75rem;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  line-height: 1.4;
+}

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import CategoryFilter from './CategoryFilter'
 import vocabulary from '../data/vocabulary.json'
+import { basicSentenceCheck } from '../utils/basicSentenceCheck'
+
+const onGitHubPages = import.meta.env.BASE_URL !== '/'
 
 export default function WriteMode() {
   const [category, setCategory] = useState('Tất cả')
@@ -25,17 +28,35 @@ export default function WriteMode() {
     setError('')
     setResult(null)
     try {
-      const res = await fetch('/api/check-sentence', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          word: current.word,
-          sentence: sentence.trim(),
-          example: current.example,
-        }),
-      })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error || 'Lỗi kiểm tra')
+      let data
+      if (!onGitHubPages) {
+        try {
+          const res = await fetch('/api/check-sentence', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              word: current.word,
+              sentence: sentence.trim(),
+              example: current.example,
+            }),
+          })
+          const json = await res.json()
+          if (!res.ok) throw new Error(json.error || 'Lỗi kiểm tra')
+          data = json
+        } catch {
+          data = basicSentenceCheck(
+            current.word,
+            sentence.trim(),
+            current.example || '',
+          )
+        }
+      } else {
+        data = basicSentenceCheck(
+          current.word,
+          sentence.trim(),
+          current.example || '',
+        )
+      }
       setResult(data)
     } catch (err) {
       setError(err.message)
@@ -66,6 +87,12 @@ export default function WriteMode() {
           <p className="example-py">{current.examplePinyin}</p>
           <p className="example-vi">{current.exampleVietnamese}</p>
         </div>
+
+        {onGitHubPages && (
+          <p className="write-offline-note">
+            Bản GitHub Pages dùng kiểm tra cơ bản (từ trong câu, tiếng Trung, dấu câu). Đánh giá AI chỉ khi chạy local với <code>npm run dev</code> và API key.
+          </p>
+        )}
 
         <label className="write-label" htmlFor="sentence">
           Viết câu ví dụ của bạn (dùng từ &ldquo;{current.word}&rdquo;):
