@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { getCheckSentenceUrl } from '../utils/api';
+import { basicSentenceCheck } from '../utils/basicSentenceCheck';
 
 export default function WritingPractice({ vocabulary }) {
   const [wordIndex, setWordIndex] = useState(0);
@@ -19,24 +21,22 @@ export default function WritingPractice({ vocabulary }) {
     setLoading(true);
     setResult(null);
     try {
-      const res = await fetch('/api/evaluate', {
+      const res = await fetch(getCheckSentenceUrl(), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           word: card.word,
-          pinyin: card.pinyin,
-          vietnamese: card.vietnamese,
-          userSentence: sentence,
+          sentence: sentence.trim(),
+          example: card.example,
         }),
       });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Lỗi kiểm tra');
       setResult(data);
     } catch {
-      setResult({
-        correct: null,
-        feedback: 'Không thể kết nối server. Hãy chạy npm run dev để khởi động cả frontend và API.',
-        suggestions: 'Kiểm tra terminal xem server có đang chạy trên cổng 3001 không.',
-      });
+      setResult(
+        basicSentenceCheck(card.word, sentence.trim(), card.example || ''),
+      );
     } finally {
       setLoading(false);
     }

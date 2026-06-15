@@ -2,8 +2,7 @@ import { useState } from 'react'
 import CategoryFilter from './CategoryFilter'
 import vocabulary from '../data/vocabulary.json'
 import { basicSentenceCheck } from '../utils/basicSentenceCheck'
-
-const onGitHubPages = import.meta.env.BASE_URL !== '/'
+import { getCheckSentenceUrl, hasRemoteApi } from '../utils/api'
 
 export default function WriteMode() {
   const [category, setCategory] = useState('Tất cả')
@@ -29,28 +28,20 @@ export default function WriteMode() {
     setResult(null)
     try {
       let data
-      if (!onGitHubPages) {
-        try {
-          const res = await fetch('/api/check-sentence', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              word: current.word,
-              sentence: sentence.trim(),
-              example: current.example,
-            }),
-          })
-          const json = await res.json()
-          if (!res.ok) throw new Error(json.error || 'Lỗi kiểm tra')
-          data = json
-        } catch {
-          data = basicSentenceCheck(
-            current.word,
-            sentence.trim(),
-            current.example || '',
-          )
-        }
-      } else {
+      try {
+        const res = await fetch(getCheckSentenceUrl(), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            word: current.word,
+            sentence: sentence.trim(),
+            example: current.example,
+          }),
+        })
+        const json = await res.json()
+        if (!res.ok) throw new Error(json.error || 'Lỗi kiểm tra')
+        data = json
+      } catch {
         data = basicSentenceCheck(
           current.word,
           sentence.trim(),
@@ -88,9 +79,15 @@ export default function WriteMode() {
           <p className="example-vi">{current.exampleVietnamese}</p>
         </div>
 
-        {onGitHubPages && (
+        {!hasRemoteApi() && import.meta.env.BASE_URL !== '/' && (
           <p className="write-offline-note">
-            Bản GitHub Pages dùng kiểm tra cơ bản (từ trong câu, tiếng Trung, dấu câu). Đánh giá AI chỉ khi chạy local với <code>npm run dev</code> và API key.
+            Chưa cấu hình API serverless — dùng kiểm tra cơ bản offline. Xem README để bật đánh giá AI trên mọi thiết bị.
+          </p>
+        )}
+
+        {!hasRemoteApi() && import.meta.env.BASE_URL === '/' && (
+          <p className="write-offline-note">
+            Chạy local với <code>npm run dev</code> và API key để dùng AI. Hoặc cấu hình Vercel theo README để dùng AI trên GitHub Pages.
           </p>
         )}
 
