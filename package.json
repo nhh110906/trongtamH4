@@ -4,10 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run server\" \"vite\"",
+    "server": "node server/index.js",
+    "dev:client": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate:vocab": "node scripts/generate-vocabulary.mjs"
   },
   "dependencies": {
     "concurrently": "^10.0.3",

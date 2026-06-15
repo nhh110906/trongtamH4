@@ -1,0 +1,3532 @@
+[
+  {
+    "id": 1,
+    "word": "爱情",
+    "pinyin": "ài qíng",
+    "vietnamese": "tình yêu",
+    "category": "名词",
+    "example": "他们的爱情很美好。",
+    "examplePinyin": "tā men de ài qíng hěn měi hǎo",
+    "exampleVietnamese": "Tình yêu của họ rất đẹp."
+  },
+  {
+    "id": 2,
+    "word": "笔记本",
+    "pinyin": "bǐ jì běn",
+    "vietnamese": "sổ tay / máy tính xách tay",
+    "category": "名词",
+    "example": "请把笔记写在笔记本上。",
+    "examplePinyin": "qǐng bǎ bǐ jì xiě zài bǐ jì běn shàng",
+    "exampleVietnamese": "Hãy ghi chép vào sổ tay."
+  },
+  {
+    "id": 3,
+    "word": "饼干",
+    "pinyin": "bǐng gān",
+    "vietnamese": "bánh quy",
+    "category": "名词",
+    "example": "我妈妈特别爱吃饼干。",
+    "examplePinyin": "wǒ mā ma tè bié ài chī bǐng gān",
+    "exampleVietnamese": "Mẹ tôi đặc biệt thích ăn bánh quy."
+  },
+  {
+    "id": 4,
+    "word": "博士",
+    "pinyin": "bó shì",
+    "vietnamese": "tiến sĩ",
+    "category": "名词",
+    "example": "他是一位博士。",
+    "examplePinyin": "tā shì yí wèi bó shì",
+    "exampleVietnamese": "Anh ấy là một tiến sĩ."
+  },
+  {
+    "id": 5,
+    "word": "材料",
+    "pinyin": "cái liào",
+    "vietnamese": "tài liệu / nguyên liệu",
+    "category": "名词",
+    "example": "他正在打印一份材料。",
+    "examplePinyin": "tā zhèng zài dǎ yìn yí fèn cái liào",
+    "exampleVietnamese": "Anh ấy đang in một tài liệu."
+  },
+  {
+    "id": 6,
+    "word": "传真",
+    "pinyin": "chuán zhēn",
+    "vietnamese": "fax",
+    "category": "名词",
+    "example": "请把文件传真给我。",
+    "examplePinyin": "qǐng bǎ wén jiàn chuán zhēn gěi wǒ",
+    "exampleVietnamese": "Hãy fax tài liệu cho tôi."
+  },
+  {
+    "id": 7,
+    "word": "窗户",
+    "pinyin": "chuāng hù",
+    "vietnamese": "cửa sổ",
+    "category": "名词",
+    "example": "请打开窗户通风。",
+    "examplePinyin": "qǐng dǎ kāi chuāng hù tōng fēng",
+    "exampleVietnamese": "Hãy mở cửa sổ cho thoáng."
+  },
+  {
+    "id": 8,
+    "word": "词典",
+    "pinyin": "cí diǎn",
+    "vietnamese": "từ điển",
+    "category": "名词",
+    "example": "这个词在词典里查不到。",
+    "examplePinyin": "zhè ge cí zài cí diǎn lǐ chá bú dào",
+    "exampleVietnamese": "Từ này tra không thấy trong từ điển."
+  },
+  {
+    "id": 9,
+    "word": "答案",
+    "pinyin": "dá àn",
+    "vietnamese": "đáp án",
+    "category": "名词",
+    "example": "只要找到原因，我们就找到了解决问题的答案。",
+    "examplePinyin": "zhǐ yào zhǎo dào yuán yīn wǒ men jiù zhǎo dào liǎo jiě jué wèn tí de dá àn",
+    "exampleVietnamese": "Chỉ cần tìm ra nguyên nhân là tìm được đáp án."
+  },
+  {
+    "id": 10,
+    "word": "大夫",
+    "pinyin": "dài fu",
+    "vietnamese": "bác sĩ",
+    "category": "名词",
+    "example": "大夫说你要多休息。",
+    "examplePinyin": "dài fu shuō nǐ yào duō xiū xi",
+    "exampleVietnamese": "Bác sĩ nói bạn cần nghỉ ngơi nhiều."
+  },
+  {
+    "id": 11,
+    "word": "大使馆",
+    "pinyin": "dà shǐ guǎn",
+    "vietnamese": "đại sứ quán",
+    "category": "名词",
+    "example": "大使馆在市中心。",
+    "examplePinyin": "dà shǐ guǎn zài shì zhōng xīn",
+    "exampleVietnamese": "Đại sứ quán ở trung tâm thành phố."
+  },
+  {
+    "id": 12,
+    "word": "代表",
+    "pinyin": "dài biǎo",
+    "vietnamese": "đại diện",
+    "category": "名词",
+    "example": "他代表公司参加会议。",
+    "examplePinyin": "tā dài biǎo gōng sī cān jiā huì yì",
+    "exampleVietnamese": "Anh ấy đại diện công ty tham dự hội nghị."
+  },
+  {
+    "id": 13,
+    "word": "刀",
+    "pinyin": "dāo",
+    "vietnamese": "dao",
+    "category": "名词",
+    "example": "请把刀收好。",
+    "examplePinyin": "qǐng bǎ dāo shōu hǎo",
+    "exampleVietnamese": "Hãy cất dao đi."
+  },
+  {
+    "id": 14,
+    "word": "导游",
+    "pinyin": "dǎo yóu",
+    "vietnamese": "hướng dẫn viên du lịch",
+    "category": "名词",
+    "example": "他是一位导游，所以去过很多地方。",
+    "examplePinyin": "tā shì yí wèi dǎo yóu suǒ yǐ qù guò hěn duō dì fāng",
+    "exampleVietnamese": "Anh ấy là hướng dẫn viên nên đã đi nhiều nơi."
+  },
+  {
+    "id": 15,
+    "word": "地球",
+    "pinyin": "dì qiú",
+    "vietnamese": "trái đất",
+    "category": "名词",
+    "example": "我们要保护地球。",
+    "examplePinyin": "wǒ men yào bǎo hù dì qiú",
+    "exampleVietnamese": "Chúng ta phải bảo vệ trái đất."
+  },
+  {
+    "id": 16,
+    "word": "地址",
+    "pinyin": "dì zhǐ",
+    "vietnamese": "địa chỉ",
+    "category": "名词",
+    "example": "请告诉我你的地址。",
+    "examplePinyin": "qǐng gào sù wǒ nǐ de dì zhǐ",
+    "exampleVietnamese": "Hãy cho tôi biết địa chỉ của bạn."
+  },
+  {
+    "id": 17,
+    "word": "动作",
+    "pinyin": "dòng zuò",
+    "vietnamese": "động tác",
+    "category": "名词",
+    "example": "他的动作很标准。",
+    "examplePinyin": "tā de dòng zuò hěn biāo zhǔn",
+    "exampleVietnamese": "Động tác của anh ấy rất chuẩn."
+  },
+  {
+    "id": 18,
+    "word": "肚子",
+    "pinyin": "dù zǐ",
+    "vietnamese": "bụng",
+    "category": "名词",
+    "example": "我肚子饿了。",
+    "examplePinyin": "wǒ dù zǐ è le",
+    "exampleVietnamese": "Tôi đói bụng rồi."
+  },
+  {
+    "id": 19,
+    "word": "儿童",
+    "pinyin": "ér tóng",
+    "vietnamese": "trẻ em",
+    "category": "名词",
+    "example": "公园里有很多儿童。",
+    "examplePinyin": "gōng yuán lǐ yǒu hěn duō ér tóng",
+    "exampleVietnamese": "Trong công viên có rất nhiều trẻ em."
+  },
+  {
+    "id": 20,
+    "word": "法律",
+    "pinyin": "fǎ lǜ",
+    "vietnamese": "pháp luật",
+    "category": "名词",
+    "example": "每个人都应该遵守法律。",
+    "examplePinyin": "měi gè rén dōu yīng gāi zūn shǒu fǎ lǜ",
+    "exampleVietnamese": "Mọi người đều nên tuân thủ pháp luật."
+  },
+  {
+    "id": 21,
+    "word": "范围",
+    "pinyin": "fàn wéi",
+    "vietnamese": "phạm vi",
+    "category": "名词",
+    "example": "这次考试的范围很广。",
+    "examplePinyin": "zhè cì kǎo shì de fàn wéi hěn guǎng",
+    "exampleVietnamese": "Phạm vi kỳ thi này rất rộng."
+  },
+  {
+    "id": 22,
+    "word": "方法",
+    "pinyin": "fāng fǎ",
+    "vietnamese": "phương pháp",
+    "category": "名词",
+    "example": "只要找到原因，我们就找到了解决问题的方法。",
+    "examplePinyin": "zhǐ yào zhǎo dào yuán yīn wǒ men jiù zhǎo dào liǎo jiě jué wèn tí de fāng fǎ",
+    "exampleVietnamese": "Tìm được nguyên nhân là tìm được phương pháp giải quyết."
+  },
+  {
+    "id": 23,
+    "word": "风景",
+    "pinyin": "fēng jǐng",
+    "vietnamese": "phong cảnh",
+    "category": "名词",
+    "example": "这里的风景非常美丽。",
+    "examplePinyin": "zhè lǐ de fēng jǐng fēi cháng měi lì",
+    "exampleVietnamese": "Phong cảnh ở đây rất đẹp."
+  },
+  {
+    "id": 24,
+    "word": "感觉",
+    "pinyin": "gǎn jué",
+    "vietnamese": "cảm giác",
+    "category": "名词",
+    "example": "我感觉他今天心情不好。",
+    "examplePinyin": "wǒ gǎn jué tā jīn tiān xīn qíng bù hǎo",
+    "exampleVietnamese": "Tôi cảm giác hôm nay anh ấy không vui."
+  },
+  {
+    "id": 25,
+    "word": "感情",
+    "pinyin": "gǎn qíng",
+    "vietnamese": "tình cảm",
+    "category": "名词",
+    "example": "他的感情非常丰富。",
+    "examplePinyin": "tā de gǎn qíng fēi cháng fēng fù",
+    "exampleVietnamese": "Tình cảm của anh ấy rất phong phú."
+  },
+  {
+    "id": 26,
+    "word": "个子",
+    "pinyin": "gè zi",
+    "vietnamese": "chiều cao / dáng người",
+    "category": "名词",
+    "example": "他个子很高。",
+    "examplePinyin": "tā gè zi hěn gāo",
+    "exampleVietnamese": "Anh ấy cao lớn."
+  },
+  {
+    "id": 27,
+    "word": "工具",
+    "pinyin": "gōng jù",
+    "vietnamese": "công cụ",
+    "category": "名词",
+    "example": "电脑是很好的工具。",
+    "examplePinyin": "diàn nǎo shì hěn hǎo de gōng jù",
+    "exampleVietnamese": "Máy tính là công cụ rất tốt."
+  },
+  {
+    "id": 28,
+    "word": "工资",
+    "pinyin": "gōng zī",
+    "vietnamese": "lương",
+    "category": "名词",
+    "example": "这个月公司给的奖金比工资还高。",
+    "examplePinyin": "zhè ge yuè gōng sī gěi de jiǎng jīn bǐ gōng zī hái gāo",
+    "exampleVietnamese": "Tháng này thưởng còn cao hơn lương."
+  },
+  {
+    "id": 29,
+    "word": "顾客",
+    "pinyin": "gù kè",
+    "vietnamese": "khách hàng",
+    "category": "名词",
+    "example": "顾客就是上帝。",
+    "examplePinyin": "gù kè jiù shì shàng dì",
+    "exampleVietnamese": "Khách hàng là thượng đế."
+  },
+  {
+    "id": 30,
+    "word": "关键",
+    "pinyin": "guān jiàn",
+    "vietnamese": "then chốt / quan trọng",
+    "category": "名词",
+    "example": "要想解决这道难题，关键在于理清思路。",
+    "examplePinyin": "yào xiǎng jiě jué zhè dào nán tí guān jiàn zài yú lǐ qīng sī lù",
+    "exampleVietnamese": "Giải bài khó này thì then chốt là làm rõ ý tưởng."
+  },
+  {
+    "id": 31,
+    "word": "观众",
+    "pinyin": "guān zhòng",
+    "vietnamese": "khán giả",
+    "category": "名词",
+    "example": "观众们热烈鼓掌。",
+    "examplePinyin": "guān zhòng men rè liè gǔ zhǎng",
+    "exampleVietnamese": "Khán giả vỗ tay nhiệt liệt."
+  },
+  {
+    "id": 32,
+    "word": "广告",
+    "pinyin": "guǎng gào",
+    "vietnamese": "quảng cáo",
+    "category": "名词",
+    "example": "电视上的广告太多了。",
+    "examplePinyin": "diàn shì shàng de guǎng gào tài duō le",
+    "exampleVietnamese": "Quảng cáo trên TV quá nhiều."
+  },
+  {
+    "id": 33,
+    "word": "规定",
+    "pinyin": "guī dìng",
+    "vietnamese": "quy định",
+    "category": "名词",
+    "example": "学校有明确的规定。",
+    "examplePinyin": "xué xiào yǒu míng què de guī dìng",
+    "exampleVietnamese": "Trường có quy định rõ ràng."
+  },
+  {
+    "id": 34,
+    "word": "过程",
+    "pinyin": "guò chéng",
+    "vietnamese": "quá trình",
+    "category": "名词",
+    "example": "学习是一个漫长的过程。",
+    "examplePinyin": "xué xí shì yí gè màn cháng de guò chéng",
+    "exampleVietnamese": "Học tập là một quá trình dài."
+  },
+  {
+    "id": 35,
+    "word": "海洋",
+    "pinyin": "hǎi yáng",
+    "vietnamese": "đại dương",
+    "category": "名词",
+    "example": "海洋覆盖了地球的大部分。",
+    "examplePinyin": "hǎi yáng fù gài le dì qiú de dà bù fen",
+    "exampleVietnamese": "Đại dương bao phủ phần lớn trái đất."
+  },
+  {
+    "id": 36,
+    "word": "汗",
+    "pinyin": "hàn",
+    "vietnamese": "mồ hôi",
+    "category": "名词",
+    "example": "运动后出了一身汗。",
+    "examplePinyin": "yùn dòng hòu chū le yì shēn hàn",
+    "exampleVietnamese": "Tập thể dục xong ra mồ hôi cả người."
+  },
+  {
+    "id": 37,
+    "word": "航班",
+    "pinyin": "háng bān",
+    "vietnamese": "chuyến bay",
+    "category": "名词",
+    "example": "开往北京的航班已经起飞了。",
+    "examplePinyin": "kāi wǎng běi jīng de háng bān yǐ jīng qǐ fēi le",
+    "exampleVietnamese": "Chuyến bay đi Bắc Kinh đã cất cánh."
+  },
+  {
+    "id": 38,
+    "word": "好处",
+    "pinyin": "hǎo chù",
+    "vietnamese": "lợi ích",
+    "category": "名词",
+    "example": "多运动对身体有好处。",
+    "examplePinyin": "duō yùn dòng duì shēn tǐ yǒu hǎo chù",
+    "exampleVietnamese": "Vận động nhiều có lợi cho sức khỏe."
+  },
+  {
+    "id": 39,
+    "word": "号码",
+    "pinyin": "hào mǎ",
+    "vietnamese": "số / mã số",
+    "category": "名词",
+    "example": "你的电话号码是多少？",
+    "examplePinyin": "nǐ de diàn huà hào mǎ shì duō shǎo",
+    "exampleVietnamese": "Số điện thoại của bạn là bao nhiêu?"
+  },
+  {
+    "id": 40,
+    "word": "盒子",
+    "pinyin": "hé zi",
+    "vietnamese": "hộp",
+    "category": "名词",
+    "example": "礼物放在盒子里。",
+    "examplePinyin": "lǐ wù fàng zài hé zi lǐ",
+    "exampleVietnamese": "Quà đặt trong hộp."
+  },
+  {
+    "id": 41,
+    "word": "猴子",
+    "pinyin": "hóu zi",
+    "vietnamese": "con khỉ",
+    "category": "名词",
+    "example": "动物园里有很多猴子。",
+    "examplePinyin": "dòng wù yuán lǐ yǒu hěn duō hóu zi",
+    "exampleVietnamese": "Trong sở thú có rất nhiều khỉ."
+  },
+  {
+    "id": 42,
+    "word": "护士",
+    "pinyin": "hù shì",
+    "vietnamese": "y tá",
+    "category": "名词",
+    "example": "护士很耐心地照顾病人。",
+    "examplePinyin": "hù shì hěn nài xīn dì zhào gù bìng rén",
+    "exampleVietnamese": "Y tá chăm sóc bệnh nhân rất kiên nhẫn."
+  },
+  {
+    "id": 43,
+    "word": "基础",
+    "pinyin": "jī chǔ",
+    "vietnamese": "nền tảng / cơ bản",
+    "category": "名词",
+    "example": "学好基础很重要。",
+    "examplePinyin": "xué hǎo jī chǔ hěn zhòng yào",
+    "exampleVietnamese": "Học tốt nền tảng rất quan trọng."
+  },
+  {
+    "id": 44,
+    "word": "计划",
+    "pinyin": "jì huà",
+    "vietnamese": "kế hoạch",
+    "category": "名词",
+    "example": "他改变了今天的计划。",
+    "examplePinyin": "tā gǎi biàn le jīn tiān de jì huà",
+    "exampleVietnamese": "Anh ấy thay đổi kế hoạch hôm nay."
+  },
+  {
+    "id": 45,
+    "word": "记者",
+    "pinyin": "jì zhě",
+    "vietnamese": "phóng viên",
+    "category": "名词",
+    "example": "记者正在采访他。",
+    "examplePinyin": "jì zhě zhèng zài cǎi fǎng tā",
+    "exampleVietnamese": "Phóng viên đang phỏng vấn anh ấy."
+  },
+  {
+    "id": 46,
+    "word": "技术",
+    "pinyin": "jì shù",
+    "vietnamese": "kỹ thuật / công nghệ",
+    "category": "名词",
+    "example": "他的技术很好。",
+    "examplePinyin": "tā de jì shù hěn hǎo",
+    "exampleVietnamese": "Kỹ thuật của anh ấy rất tốt."
+  },
+  {
+    "id": 47,
+    "word": "加油站",
+    "pinyin": "jiā yóu zhàn",
+    "vietnamese": "trạm xăng",
+    "category": "名词",
+    "example": "前面有一个加油站。",
+    "examplePinyin": "qián miàn yǒu yí gè jiā yóu zhàn",
+    "exampleVietnamese": "Phía trước có một trạm xăng."
+  },
+  {
+    "id": 48,
+    "word": "家具",
+    "pinyin": "jiā jù",
+    "vietnamese": "đồ nội thất",
+    "category": "名词",
+    "example": "我们买了新家具。",
+    "examplePinyin": "wǒ men mǎi le xīn jiā jù",
+    "exampleVietnamese": "Chúng tôi mua đồ nội thất mới."
+  },
+  {
+    "id": 49,
+    "word": "价格",
+    "pinyin": "jià gé",
+    "vietnamese": "giá cả",
+    "category": "名词",
+    "example": "这件衣服的价格很合理。",
+    "examplePinyin": "zhè jiàn yī fu de jià gé hěn hé lǐ",
+    "exampleVietnamese": "Giá bộ quần áo này rất hợp lý."
+  },
+  {
+    "id": 50,
+    "word": "奖金",
+    "pinyin": "jiǎng jīn",
+    "vietnamese": "tiền thưởng",
+    "category": "名词",
+    "example": "公司给了很高的奖金。",
+    "examplePinyin": "gōng sī gěi le hěn gāo de jiǎng jīn",
+    "exampleVietnamese": "Công ty trả tiền thưởng rất cao."
+  },
+  {
+    "id": 51,
+    "word": "交通",
+    "pinyin": "jiāo tōng",
+    "vietnamese": "giao thông",
+    "category": "名词",
+    "example": "北京的交通状况不好。",
+    "examplePinyin": "běi jīng de jiāo tōng zhuàng kuàng bù hǎo",
+    "exampleVietnamese": "Tình hình giao thông Bắc Kinh không tốt."
+  },
+  {
+    "id": 52,
+    "word": "饺子",
+    "pinyin": "jiǎo zǐ",
+    "vietnamese": "bánh bao / há cảo",
+    "category": "名词",
+    "example": "我妈妈特别爱吃饺子。",
+    "examplePinyin": "wǒ mā ma tè bié ài chī jiǎo zǐ",
+    "exampleVietnamese": "Mẹ tôi đặc biệt thích ăn há cảo."
+  },
+  {
+    "id": 53,
+    "word": "教授",
+    "pinyin": "jiào shòu",
+    "vietnamese": "giáo sư",
+    "category": "名词",
+    "example": "这位教授很受学生们欢迎。",
+    "examplePinyin": "zhè wèi jiào shòu hěn shòu xué shēng men huān yíng",
+    "exampleVietnamese": "Giáo sư này rất được sinh viên yêu mến."
+  },
+  {
+    "id": 54,
+    "word": "结果",
+    "pinyin": "jié guǒ",
+    "vietnamese": "kết quả",
+    "category": "名词",
+    "example": "考试结果出来了。",
+    "examplePinyin": "kǎo shì jié guǒ chū lái le",
+    "exampleVietnamese": "Kết quả thi đã ra."
+  },
+  {
+    "id": 55,
+    "word": "京剧",
+    "pinyin": "jīng jù",
+    "vietnamese": "Kinh kịch",
+    "category": "名词",
+    "example": "今天的京剧表演非常精彩。",
+    "examplePinyin": "jīn tiān de jīng jù biǎo yǎn fēi cháng jīng cǎi",
+    "exampleVietnamese": "Buổi biểu diễn Kinh kịch hôm nay rất hay."
+  },
+  {
+    "id": 56,
+    "word": "经济",
+    "pinyin": "jīng jì",
+    "vietnamese": "kinh tế",
+    "category": "名词",
+    "example": "现在更关注中国的经济。",
+    "examplePinyin": "xiàn zài gèng guān zhù zhōng guó de jīng jì",
+    "exampleVietnamese": "Bây giờ quan tâm nhiều hơn đến kinh tế Trung Quốc."
+  },
+  {
+    "id": 57,
+    "word": "经历",
+    "pinyin": "jīng lì",
+    "vietnamese": "kinh nghiệm / trải qua",
+    "category": "名词",
+    "example": "他积累了很多经历。",
+    "examplePinyin": "tā jī lěi le hěn duō jīng lì",
+    "exampleVietnamese": "Anh ấy tích lũy nhiều kinh nghiệm."
+  },
+  {
+    "id": 58,
+    "word": "警察",
+    "pinyin": "jǐng chá",
+    "vietnamese": "cảnh sát",
+    "category": "名词",
+    "example": "警察抓住了小偷。",
+    "examplePinyin": "jǐng chá zhuā zhù le xiǎo tōu",
+    "exampleVietnamese": "Cảnh sát bắt được kẻ trộm."
+  },
+  {
+    "id": 59,
+    "word": "镜子",
+    "pinyin": "jìng zi",
+    "vietnamese": "gương",
+    "category": "名词",
+    "example": "请照照镜子。",
+    "examplePinyin": "qǐng zhào zhào jìng zi",
+    "exampleVietnamese": "Hãy soi gương."
+  },
+  {
+    "id": 60,
+    "word": "距离",
+    "pinyin": "jù lí",
+    "vietnamese": "khoảng cách",
+    "category": "名词",
+    "example": "学校距离我家很远。",
+    "examplePinyin": "xué xiào jù lí wǒ jiā hěn yuǎn",
+    "exampleVietnamese": "Trường cách nhà tôi rất xa."
+  },
+  {
+    "id": 61,
+    "word": "看法",
+    "pinyin": "kàn fǎ",
+    "vietnamese": "quan điểm / cách nhìn",
+    "category": "名词",
+    "example": "你对这件事有什么看法？",
+    "examplePinyin": "nǐ duì zhè jiàn shì yǒu shén me kàn fǎ",
+    "exampleVietnamese": "Bạn có quan điểm gì về việc này?"
+  },
+  {
+    "id": 62,
+    "word": "空气",
+    "pinyin": "kōng qì",
+    "vietnamese": "không khí",
+    "category": "名词",
+    "example": "这里的空气很新鲜。",
+    "examplePinyin": "zhè lǐ de kōng qì hěn xīn xiān",
+    "exampleVietnamese": "Không khí ở đây rất trong lành."
+  },
+  {
+    "id": 63,
+    "word": "垃圾桶",
+    "pinyin": "lā jī tǒng",
+    "vietnamese": "thùng rác",
+    "category": "名词",
+    "example": "请把垃圾扔到垃圾桶里。",
+    "examplePinyin": "qǐng bǎ lā jī rēng dào lā jī tǒng lǐ",
+    "exampleVietnamese": "Hãy vứt rác vào thùng rác."
+  },
+  {
+    "id": 64,
+    "word": "老虎",
+    "pinyin": "lǎo hǔ",
+    "vietnamese": "con hổ",
+    "category": "名词",
+    "example": "老虎是森林之王。",
+    "examplePinyin": "lǎo hǔ shì sēn lín zhī wáng",
+    "exampleVietnamese": "Hổ là vua của rừng."
+  },
+  {
+    "id": 65,
+    "word": "理想",
+    "pinyin": "lǐ xiǎng",
+    "vietnamese": "lý tưởng",
+    "category": "名词",
+    "example": "为了实现理想，我愿意努力。",
+    "examplePinyin": "wèi le shí xiàn lǐ xiǎng wǒ yuàn yì nǔ lì",
+    "exampleVietnamese": "Để thực hiện lý tưởng, tôi sẵn sàng nỗ lực."
+  },
+  {
+    "id": 66,
+    "word": "力气",
+    "pinyin": "lì qi",
+    "vietnamese": "sức lực",
+    "category": "名词",
+    "example": "我累得没有力气了。",
+    "examplePinyin": "wǒ lèi dé méi yǒu lì qi le",
+    "exampleVietnamese": "Tôi mệt đến không còn sức."
+  },
+  {
+    "id": 67,
+    "word": "律师",
+    "pinyin": "lǜ shī",
+    "vietnamese": "luật sư",
+    "category": "名词",
+    "example": "他是一名律师。",
+    "examplePinyin": "tā shì yì míng lǜ shī",
+    "exampleVietnamese": "Anh ấy là một luật sư."
+  },
+  {
+    "id": 68,
+    "word": "毛巾",
+    "pinyin": "máo jīn",
+    "vietnamese": "khăn tắm",
+    "category": "名词",
+    "example": "你帮我把洗手间里的毛巾拿来。",
+    "examplePinyin": "nǐ bāng wǒ bǎ xǐ shǒu jiān lǐ de máo jīn ná lái",
+    "exampleVietnamese": "Giúp tôi lấy khăn tắm trong nhà vệ sinh."
+  },
+  {
+    "id": 69,
+    "word": "梦",
+    "pinyin": "mèng",
+    "vietnamese": "giấc mơ",
+    "category": "名词",
+    "example": "我昨晚做了一个好梦。",
+    "examplePinyin": "wǒ zuó wǎn zuò le yí gè hǎo mèng",
+    "exampleVietnamese": "Tối qua tôi mơ một giấc mơ đẹp."
+  },
+  {
+    "id": 70,
+    "word": "密码",
+    "pinyin": "mì mǎ",
+    "vietnamese": "mật khẩu",
+    "category": "名词",
+    "example": "请不要告诉别人你的密码。",
+    "examplePinyin": "qǐng bú yào gào sù bié rén nǐ de mì mǎ",
+    "exampleVietnamese": "Đừng cho ai biết mật khẩu của bạn."
+  },
+  {
+    "id": 71,
+    "word": "民族",
+    "pinyin": "mín zú",
+    "vietnamese": "dân tộc",
+    "category": "名词",
+    "example": "中国是一个多民族国家。",
+    "examplePinyin": "zhōng guó shì yí gè duō mín zú guó jiā",
+    "exampleVietnamese": "Trung Quốc là quốc gia đa dân tộc."
+  },
+  {
+    "id": 72,
+    "word": "目的",
+    "pinyin": "mù dì",
+    "vietnamese": "mục đích",
+    "category": "名词",
+    "example": "他们组织这次活动的目的就是提高想象力。",
+    "examplePinyin": "tā men zǔ zhī zhè cì huó dòng de mù dì jiù shì tí gāo xiǎng xiàng lì",
+    "exampleVietnamese": "Mục đích tổ chức hoạt động là nâng cao trí tưởng tượng."
+  },
+  {
+    "id": 73,
+    "word": "内容",
+    "pinyin": "nèi róng",
+    "vietnamese": "nội dung",
+    "category": "名词",
+    "example": "这本书的内容很丰富。",
+    "examplePinyin": "zhè běn shū de nèi róng hěn fēng fù",
+    "exampleVietnamese": "Nội dung cuốn sách rất phong phú."
+  },
+  {
+    "id": 74,
+    "word": "能力",
+    "pinyin": "néng lì",
+    "vietnamese": "năng lực",
+    "category": "名词",
+    "example": "他有很强的学习能力。",
+    "examplePinyin": "tā yǒu hěn qiáng de xué xí néng lì",
+    "exampleVietnamese": "Anh ấy có năng lực học tập rất mạnh."
+  },
+  {
+    "id": 75,
+    "word": "年龄",
+    "pinyin": "nián líng",
+    "vietnamese": "tuổi tác",
+    "category": "名词",
+    "example": "他们的年龄差不多。",
+    "examplePinyin": "tā men de nián líng chà bù duō",
+    "exampleVietnamese": "Tuổi của họ gần như nhau."
+  },
+  {
+    "id": 76,
+    "word": "农村",
+    "pinyin": "nóng cūn",
+    "vietnamese": "nông thôn",
+    "category": "名词",
+    "example": "现在农村发展得实在是太快了！",
+    "examplePinyin": "xiàn zài nóng cūn fā zhǎn dé shí zài shì tài kuài le",
+    "exampleVietnamese": "Nông thôn bây giờ phát triển thật nhanh!"
+  },
+  {
+    "id": 77,
+    "word": "皮肤",
+    "pinyin": "pí fū",
+    "vietnamese": "da",
+    "category": "名词",
+    "example": "你的皮肤白，这件衣服肯定适合你。",
+    "examplePinyin": "nǐ de pí fū bái zhè jiàn yī fu kěn dìng shì hé nǐ",
+    "exampleVietnamese": "Da bạn trắng, bộ quần áo này chắc hợp với bạn."
+  },
+  {
+    "id": 78,
+    "word": "脾气",
+    "pinyin": "pí qì",
+    "vietnamese": "tính khí",
+    "category": "名词",
+    "example": "如果你只看到一个人的缺点，那你将会失去很多朋友。",
+    "examplePinyin": "rú guǒ nǐ zhī kàn dào yí gè rén de quē diǎn nà nǐ jiāng huì shī qù hěn duō péng yǒu",
+    "exampleVietnamese": "Chỉ thấy khuyết điểm của người khác sẽ mất nhiều bạn."
+  },
+  {
+    "id": 79,
+    "word": "乒乓球",
+    "pinyin": "pīng pāng qiú",
+    "vietnamese": "bóng bàn",
+    "category": "名词",
+    "example": "他喜欢打乒乓球。",
+    "examplePinyin": "tā xǐ huan dǎ pīng pāng qiú",
+    "exampleVietnamese": "Anh ấy thích chơi bóng bàn."
+  },
+  {
+    "id": 80,
+    "word": "瓶子",
+    "pinyin": "píng zi",
+    "vietnamese": "chai / lọ",
+    "category": "名词",
+    "example": "这些瓶子的数量对吧？",
+    "examplePinyin": "zhè xiē píng zi de shù liàng duì ba",
+    "exampleVietnamese": "Số lượng chai này đúng chứ?"
+  },
+  {
+    "id": 81,
+    "word": "气候",
+    "pinyin": "qì hòu",
+    "vietnamese": "khí hậu",
+    "category": "名词",
+    "example": "我已经适应了这里的气候。",
+    "examplePinyin": "wǒ yǐ jīng shì yìng le zhè lǐ de qì hòu",
+    "exampleVietnamese": "Tôi đã thích nghi với khí hậu ở đây."
+  },
+  {
+    "id": 82,
+    "word": "签证",
+    "pinyin": "qiān zhèng",
+    "vietnamese": "thị thực",
+    "category": "名词",
+    "example": "他没拿到签证，很伤心。",
+    "examplePinyin": "tā méi ná dào qiān zhèng hěn shāng xīn",
+    "exampleVietnamese": "Anh ấy không xin được visa, rất buồn."
+  },
+  {
+    "id": 83,
+    "word": "墙",
+    "pinyin": "qiáng",
+    "vietnamese": "tường",
+    "category": "名词",
+    "example": "墙上挂着一张画。",
+    "examplePinyin": "qiáng shàng guà zhe yì zhāng huà",
+    "exampleVietnamese": "Trên tường treo một bức tranh."
+  },
+  {
+    "id": 84,
+    "word": "桥",
+    "pinyin": "qiáo",
+    "vietnamese": "cầu",
+    "category": "名词",
+    "example": "这座桥很古老。",
+    "examplePinyin": "zhè zuò qiáo hěn gǔ lǎo",
+    "exampleVietnamese": "Cây cầu này rất cổ."
+  },
+  {
+    "id": 85,
+    "word": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "vietnamese": "sô-cô-la",
+    "category": "名词",
+    "example": "她喜欢吃巧克力。",
+    "examplePinyin": "tā xǐ huan chī qiǎo kè lì",
+    "exampleVietnamese": "Cô ấy thích ăn sô-cô-la."
+  },
+  {
+    "id": 86,
+    "word": "亲戚",
+    "pinyin": "qīn qi",
+    "vietnamese": "họ hàng / người thân",
+    "category": "名词",
+    "example": "春节要去亲戚家拜年。",
+    "examplePinyin": "chūn jié yào qù qīn qi jiā bài nián",
+    "exampleVietnamese": "Tết phải đến nhà họ hàng chúc Tết."
+  },
+  {
+    "id": 87,
+    "word": "情况",
+    "pinyin": "qíng kuàng",
+    "vietnamese": "tình huống / tình hình",
+    "category": "名词",
+    "example": "请介绍一下情况。",
+    "examplePinyin": "qǐng jiè shào yí xià qíng kuàng",
+    "exampleVietnamese": "Hãy giới thiệu tình hình."
+  },
+  {
+    "id": 88,
+    "word": "区别",
+    "pinyin": "qū bié",
+    "vietnamese": "sự khác biệt",
+    "category": "名词",
+    "example": "这两个词有什么区别？",
+    "examplePinyin": "zhè liǎng gè cí yǒu shén me qū bié",
+    "exampleVietnamese": "Hai từ này khác nhau chỗ nào?"
+  },
+  {
+    "id": 89,
+    "word": "缺点",
+    "pinyin": "quē diǎn",
+    "vietnamese": "khuyết điểm",
+    "category": "名词",
+    "example": "每个人都有缺点。",
+    "examplePinyin": "měi gè rén dōu yǒu quē diǎn",
+    "exampleVietnamese": "Ai cũng có khuyết điểm."
+  },
+  {
+    "id": 90,
+    "word": "人民币",
+    "pinyin": "rén mín bì",
+    "vietnamese": "nhân dân tệ",
+    "category": "名词",
+    "example": "请用人民币付款。",
+    "examplePinyin": "qǐng yòng rén mín bì fù kuǎn",
+    "exampleVietnamese": "Hãy thanh toán bằng nhân dân tệ."
+  },
+  {
+    "id": 91,
+    "word": "任务",
+    "pinyin": "rèn wu",
+    "vietnamese": "nhiệm vụ",
+    "category": "名词",
+    "example": "他完成了任务。",
+    "examplePinyin": "tā wán chéng le rèn wu",
+    "exampleVietnamese": "Anh ấy hoàn thành nhiệm vụ."
+  },
+  {
+    "id": 92,
+    "word": "日记",
+    "pinyin": "rì jì",
+    "vietnamese": "nhật ký",
+    "category": "名词",
+    "example": "她每天写日记。",
+    "examplePinyin": "tā měi tiān xiě rì jì",
+    "exampleVietnamese": "Cô ấy viết nhật ký mỗi ngày."
+  },
+  {
+    "id": 93,
+    "word": "入口",
+    "pinyin": "rù kǒu",
+    "vietnamese": "lối vào",
+    "category": "名词",
+    "example": "入口在那边。",
+    "examplePinyin": "rù kǒu zài nà biān",
+    "exampleVietnamese": "Lối vào ở phía kia."
+  },
+  {
+    "id": 94,
+    "word": "森林",
+    "pinyin": "sēn lín",
+    "vietnamese": "rừng",
+    "category": "名词",
+    "example": "森林里有很多动物。",
+    "examplePinyin": "sēn lín lǐ yǒu hěn duō dòng wù",
+    "exampleVietnamese": "Trong rừng có nhiều động vật."
+  },
+  {
+    "id": 95,
+    "word": "沙发",
+    "pinyin": "shā fā",
+    "vietnamese": "ghế sofa",
+    "category": "名词",
+    "example": "请坐在沙发上。",
+    "examplePinyin": "qǐng zuò zài shā fā shàng",
+    "exampleVietnamese": "Hãy ngồi trên ghế sofa."
+  },
+  {
+    "id": 96,
+    "word": "社会",
+    "pinyin": "shè huì",
+    "vietnamese": "xã hội",
+    "category": "名词",
+    "example": "我们要融入社会。",
+    "examplePinyin": "wǒ men yào róng rù shè huì",
+    "exampleVietnamese": "Chúng ta cần hòa nhập xã hội."
+  },
+  {
+    "id": 97,
+    "word": "生命",
+    "pinyin": "shēng mìng",
+    "vietnamese": "sinh mạng / cuộc sống",
+    "category": "名词",
+    "example": "生命很宝贵。",
+    "examplePinyin": "shēng mìng hěn bǎo guì",
+    "exampleVietnamese": "Sinh mạng rất quý giá."
+  },
+  {
+    "id": 98,
+    "word": "狮子",
+    "pinyin": "shī zi",
+    "vietnamese": "sư tử",
+    "category": "名词",
+    "example": "狮子很凶猛。",
+    "examplePinyin": "shī zi hěn xiōng měng",
+    "exampleVietnamese": "Sư tử rất hung dữ."
+  },
+  {
+    "id": 99,
+    "word": "食品",
+    "pinyin": "shí pǐn",
+    "vietnamese": "thực phẩm",
+    "category": "名词",
+    "example": "这些食品都很新鲜。",
+    "examplePinyin": "zhè xiē shí pǐn dōu hěn xīn xiān",
+    "exampleVietnamese": "Thực phẩm này đều rất tươi."
+  },
+  {
+    "id": 100,
+    "word": "市场",
+    "pinyin": "shì chǎng",
+    "vietnamese": "chợ / thị trường",
+    "category": "名词",
+    "example": "市场上人很多。",
+    "examplePinyin": "shì chǎng shàng rén hěn duō",
+    "exampleVietnamese": "Trên chợ rất đông người."
+  },
+  {
+    "id": 101,
+    "word": "收入",
+    "pinyin": "shōu rù",
+    "vietnamese": "thu nhập",
+    "category": "名词",
+    "example": "他的收入很高。",
+    "examplePinyin": "tā de shōu rù hěn gāo",
+    "exampleVietnamese": "Thu nhập của anh ấy rất cao."
+  },
+  {
+    "id": 102,
+    "word": "首都",
+    "pinyin": "shǒu dū",
+    "vietnamese": "thủ đô",
+    "category": "名词",
+    "example": "北京是中国的首都。",
+    "examplePinyin": "běi jīng shì zhōng guó de shǒu dū",
+    "exampleVietnamese": "Bắc Kinh là thủ đô Trung Quốc."
+  },
+  {
+    "id": 103,
+    "word": "售货员",
+    "pinyin": "shòu huò yuán",
+    "vietnamese": "nhân viên bán hàng",
+    "category": "名词",
+    "example": "售货员很热情。",
+    "examplePinyin": "shòu huò yuán hěn rè qíng",
+    "exampleVietnamese": "Nhân viên bán hàng rất nhiệt tình."
+  },
+  {
+    "id": 104,
+    "word": "数量",
+    "pinyin": "shù liàng",
+    "vietnamese": "số lượng",
+    "category": "名词",
+    "example": "这些瓶子的数量对吧？",
+    "examplePinyin": "zhè xiē píng zi de shù liàng duì ba",
+    "exampleVietnamese": "Số lượng chai này đúng chứ?"
+  },
+  {
+    "id": 105,
+    "word": "数字",
+    "pinyin": "shù zì",
+    "vietnamese": "con số",
+    "category": "名词",
+    "example": "请用数字回答。",
+    "examplePinyin": "qǐng yòng shù zì huí dá",
+    "exampleVietnamese": "Hãy trả lời bằng con số."
+  },
+  {
+    "id": 106,
+    "word": "顺序",
+    "pinyin": "shùn xù",
+    "vietnamese": "thứ tự",
+    "category": "名词",
+    "example": "请按顺序排队。",
+    "examplePinyin": "qǐng àn shùn xù pái duì",
+    "exampleVietnamese": "Hãy xếp hàng theo thứ tự."
+  },
+  {
+    "id": 107,
+    "word": "硕士",
+    "pinyin": "shuò shì",
+    "vietnamese": "thạc sĩ",
+    "category": "名词",
+    "example": "她是一名硕士。",
+    "examplePinyin": "tā shì yì míng shuò shì",
+    "exampleVietnamese": "Cô ấy là thạc sĩ."
+  },
+  {
+    "id": 108,
+    "word": "速度",
+    "pinyin": "sù dù",
+    "vietnamese": "tốc độ",
+    "category": "名词",
+    "example": "汽车的速度很快。",
+    "examplePinyin": "qì chē de sù dù hěn kuài",
+    "exampleVietnamese": "Tốc độ xe rất nhanh."
+  },
+  {
+    "id": 109,
+    "word": "酸",
+    "pinyin": "suān",
+    "vietnamese": "chua",
+    "category": "名词",
+    "example": "这个西红柿都酸了，不能吃了。",
+    "examplePinyin": "zhè ge xī hóng shì dōu suān le bù néng chī le",
+    "exampleVietnamese": "Cà chua này chua rồi, không ăn được."
+  },
+  {
+    "id": 110,
+    "word": "态度",
+    "pinyin": "tài dù",
+    "vietnamese": "thái độ",
+    "category": "名词",
+    "example": "他的工作态度很认真。",
+    "examplePinyin": "tā de gōng zuò tài dù hěn rèn zhēn",
+    "exampleVietnamese": "Thái độ làm việc của anh ấy rất nghiêm túc."
+  },
+  {
+    "id": 111,
+    "word": "汤",
+    "pinyin": "tāng",
+    "vietnamese": "canh / súp",
+    "category": "名词",
+    "example": "这碗汤很好喝。",
+    "examplePinyin": "zhè wǎn tāng hěn hǎo hē",
+    "exampleVietnamese": "Bát canh này rất ngon."
+  },
+  {
+    "id": 112,
+    "word": "特点",
+    "pinyin": "tè diǎn",
+    "vietnamese": "đặc điểm",
+    "category": "名词",
+    "example": "每个人都有自己的特点。",
+    "examplePinyin": "měi gè rén dōu yǒu zì jǐ de tè diǎn",
+    "exampleVietnamese": "Mỗi người đều có đặc điểm riêng."
+  },
+  {
+    "id": 113,
+    "word": "条件",
+    "pinyin": "tiáo jiàn",
+    "vietnamese": "điều kiện",
+    "category": "名词",
+    "example": "我不能接受他的条件。",
+    "examplePinyin": "wǒ bù néng jiē shòu tā de tiáo jiàn",
+    "exampleVietnamese": "Tôi không thể chấp nhận điều kiện của anh ấy."
+  },
+  {
+    "id": 114,
+    "word": "通知",
+    "pinyin": "tōng zhī",
+    "vietnamese": "thông báo",
+    "category": "名词",
+    "example": "请看一下通知。",
+    "examplePinyin": "qǐng kàn yí xià tōng zhī",
+    "exampleVietnamese": "Hãy xem thông báo."
+  },
+  {
+    "id": 115,
+    "word": "袜子",
+    "pinyin": "wà zi",
+    "vietnamese": "tất / vớ",
+    "category": "名词",
+    "example": "我买了一双新袜子。",
+    "examplePinyin": "wǒ mǎi le yì shuāng xīn wà zi",
+    "exampleVietnamese": "Tôi mua một đôi tất mới."
+  },
+  {
+    "id": 116,
+    "word": "网球",
+    "pinyin": "wǎng qiú",
+    "vietnamese": "quần vợt",
+    "category": "名词",
+    "example": "他喜欢打网球。",
+    "examplePinyin": "tā xǐ huan dǎ wǎng qiú",
+    "exampleVietnamese": "Anh ấy thích chơi quần vợt."
+  },
+  {
+    "id": 117,
+    "word": "网站",
+    "pinyin": "wǎng zhàn",
+    "vietnamese": "trang web",
+    "category": "名词",
+    "example": "请访问我们的网站。",
+    "examplePinyin": "qǐng fǎng wèn wǒ men de wǎng zhàn",
+    "exampleVietnamese": "Hãy truy cập trang web của chúng tôi."
+  },
+  {
+    "id": 118,
+    "word": "味道",
+    "pinyin": "wèi dào",
+    "vietnamese": "mùi vị / hương vị",
+    "category": "名词",
+    "example": "这道菜的味道不错。",
+    "examplePinyin": "zhè dào cài de wèi dào bú cuò",
+    "exampleVietnamese": "Món này có vị không tệ."
+  },
+  {
+    "id": 119,
+    "word": "温度",
+    "pinyin": "wēn dù",
+    "vietnamese": "nhiệt độ",
+    "category": "名词",
+    "example": "今天温度又降低了10度。",
+    "examplePinyin": "jīn tiān wēn dù yòu jiàng dī le dù",
+    "exampleVietnamese": "Hôm nay nhiệt độ lại giảm 10 độ."
+  },
+  {
+    "id": 120,
+    "word": "西红柿",
+    "pinyin": "xī hóng shì",
+    "vietnamese": "cà chua",
+    "category": "名词",
+    "example": "今天超市里的西红柿全部都卖完了。",
+    "examplePinyin": "jīn tiān chāo shì lǐ de xī hóng shì quán bù dōu mài wán le",
+    "exampleVietnamese": "Cà chua trong siêu thị hôm nay bán hết sạch."
+  },
+  {
+    "id": 121,
+    "word": "洗衣机",
+    "pinyin": "xǐ yī jī",
+    "vietnamese": "máy giặt",
+    "category": "名词",
+    "example": "洗衣机坏了。",
+    "examplePinyin": "xǐ yī jī huài le",
+    "exampleVietnamese": "Máy giặt hỏng rồi."
+  },
+  {
+    "id": 122,
+    "word": "消息",
+    "pinyin": "xiāo xī",
+    "vietnamese": "tin tức / tin nhắn",
+    "category": "名词",
+    "example": "我收到了好消息。",
+    "examplePinyin": "wǒ shōu dào le hǎo xiāo xī",
+    "exampleVietnamese": "Tôi nhận được tin tốt."
+  },
+  {
+    "id": 123,
+    "word": "小说",
+    "pinyin": "xiǎo shuō",
+    "vietnamese": "tiểu thuyết",
+    "category": "名词",
+    "example": "这是一本很有趣的小说。",
+    "examplePinyin": "zhè shì yì běn hěn yǒu qù de xiǎo shuō",
+    "exampleVietnamese": "Đây là một cuốn tiểu thuyết rất thú vị."
+  },
+  {
+    "id": 124,
+    "word": "笑话",
+    "pinyin": "xiào huà",
+    "vietnamese": "câu chuyện cười",
+    "category": "名词",
+    "example": "他很会讲笑话。",
+    "examplePinyin": "tā hěn huì jiǎng xiào huà",
+    "exampleVietnamese": "Anh ấy kể chuyện cười rất giỏi."
+  },
+  {
+    "id": 125,
+    "word": "效果",
+    "pinyin": "xiào guǒ",
+    "vietnamese": "hiệu quả",
+    "category": "名词",
+    "example": "这种方法效果很好。",
+    "examplePinyin": "zhè zhǒng fāng fǎ xiào guǒ hěn hǎo",
+    "exampleVietnamese": "Phương pháp này hiệu quả rất tốt."
+  },
+  {
+    "id": 126,
+    "word": "心情",
+    "pinyin": "xīn qíng",
+    "vietnamese": "tâm trạng",
+    "category": "名词",
+    "example": "小王心情不好。",
+    "examplePinyin": "xiǎo wáng xīn qíng bù hǎo",
+    "exampleVietnamese": "Tiểu Vương tâm trạng không tốt."
+  },
+  {
+    "id": 127,
+    "word": "信心",
+    "pinyin": "xìn xīn",
+    "vietnamese": "sự tự tin",
+    "category": "名词",
+    "example": "虽然失败了，但我并没有失去信心。",
+    "examplePinyin": "suī rán shī bài le dàn wǒ bìng méi yǒu shī qù xìn xīn",
+    "exampleVietnamese": "Dù thất bại nhưng tôi không mất tự tin."
+  },
+  {
+    "id": 128,
+    "word": "信用卡",
+    "pinyin": "xìn yòng kǎ",
+    "vietnamese": "thẻ tín dụng",
+    "category": "名词",
+    "example": "办信用卡可以免费得到一些小礼物。",
+    "examplePinyin": "bàn xìn yòng kǎ kě yǐ miǎn fèi dé dào yì xiē xiǎo lǐ wù",
+    "exampleVietnamese": "Làm thẻ tín dụng được tặng quà miễn phí."
+  },
+  {
+    "id": 129,
+    "word": "性别",
+    "pinyin": "xìng bié",
+    "vietnamese": "giới tính",
+    "category": "名词",
+    "example": "请填写你的性别。",
+    "examplePinyin": "qǐng tián xiě nǐ de xìng bié",
+    "exampleVietnamese": "Hãy điền giới tính của bạn."
+  },
+  {
+    "id": 130,
+    "word": "性格",
+    "pinyin": "xìng gé",
+    "vietnamese": "tính cách",
+    "category": "名词",
+    "example": "他的性格非常活泼。",
+    "examplePinyin": "tā de xìng gé fēi cháng huó pō",
+    "exampleVietnamese": "Tính cách anh ấy rất hoạt bát."
+  },
+  {
+    "id": 131,
+    "word": "血",
+    "pinyin": "xuè",
+    "vietnamese": "máu",
+    "category": "名词",
+    "example": "他受伤了，流了很多血。",
+    "examplePinyin": "tā shòu shāng le liú le hěn duō xuè",
+    "exampleVietnamese": "Anh ấy bị thương, chảy nhiều máu."
+  },
+  {
+    "id": 132,
+    "word": "压力",
+    "pinyin": "yā lì",
+    "vietnamese": "áp lực",
+    "category": "名词",
+    "example": "王飞最近工作压力很大。",
+    "examplePinyin": "wáng fēi zuì jìn gōng zuò yā lì hěn dà",
+    "exampleVietnamese": "Vương Phi gần đây áp lực công việc rất lớn."
+  },
+  {
+    "id": 133,
+    "word": "牙膏",
+    "pinyin": "yá gāo",
+    "vietnamese": "kem đánh răng",
+    "category": "名词",
+    "example": "牙膏用完了。",
+    "examplePinyin": "yá gāo yòng wán le",
+    "exampleVietnamese": "Kem đánh răng dùng hết rồi."
+  },
+  {
+    "id": 134,
+    "word": "研究生",
+    "pinyin": "yán jiū shēng",
+    "vietnamese": "học viên cao học",
+    "category": "名词",
+    "example": "他是一名研究生。",
+    "examplePinyin": "tā shì yì míng yán jiū shēng",
+    "exampleVietnamese": "Anh ấy là học viên cao học."
+  },
+  {
+    "id": 135,
+    "word": "盐",
+    "pinyin": "yán",
+    "vietnamese": "muối",
+    "category": "名词",
+    "example": "请少放点盐。",
+    "examplePinyin": "qǐng shǎo fàng diǎn yán",
+    "exampleVietnamese": "Hãy cho ít muối thôi."
+  },
+  {
+    "id": 136,
+    "word": "演员",
+    "pinyin": "yǎn yuán",
+    "vietnamese": "diễn viên",
+    "category": "名词",
+    "example": "他是一位著名演员。",
+    "examplePinyin": "tā shì yí wèi zhù míng yǎn yuán",
+    "exampleVietnamese": "Anh ấy là diễn viên nổi tiếng."
+  },
+  {
+    "id": 137,
+    "word": "阳光",
+    "pinyin": "yáng guāng",
+    "vietnamese": "ánh nắng",
+    "category": "名词",
+    "example": "阳光照进房间。",
+    "examplePinyin": "yáng guāng zhào jìn fáng jiān",
+    "exampleVietnamese": "Ánh nắng chiếu vào phòng."
+  },
+  {
+    "id": 138,
+    "word": "样子",
+    "pinyin": "yàng zi",
+    "vietnamese": "dáng vẻ / bộ dạng",
+    "category": "名词",
+    "example": "你穿这件衣服的样子很好看。",
+    "examplePinyin": "nǐ chuān zhè jiàn yī fu de yàng zi hěn hǎo kàn",
+    "exampleVietnamese": "Bạn mặc bộ quần áo này trông rất đẹp."
+  },
+  {
+    "id": 139,
+    "word": "艺术",
+    "pinyin": "yì shù",
+    "vietnamese": "nghệ thuật",
+    "category": "名词",
+    "example": "她对艺术很感兴趣。",
+    "examplePinyin": "tā duì yì shù hěn gǎn xìng qù",
+    "exampleVietnamese": "Cô ấy rất quan tâm đến nghệ thuật."
+  },
+  {
+    "id": 140,
+    "word": "意见",
+    "pinyin": "yì jiàn",
+    "vietnamese": "ý kiến",
+    "category": "名词",
+    "example": "同学们有任何意见都可以向学校反映。",
+    "examplePinyin": "tóng xué men yǒu rèn hé yì jiàn dōu kě yǐ xiàng xué xiào fǎn yìng",
+    "exampleVietnamese": "Sinh viên có ý kiến gì đều có thể phản ánh với trường."
+  },
+  {
+    "id": 141,
+    "word": "饮料",
+    "pinyin": "yǐn liào",
+    "vietnamese": "đồ uống",
+    "category": "名词",
+    "example": "慧慧，我去那边买两瓶饮料。",
+    "examplePinyin": "huì huì wǒ qù nà biān mǎi liǎng píng yǐn liào",
+    "exampleVietnamese": "Huyền Huyền, tôi sang kia mua hai chai nước."
+  },
+  {
+    "id": 142,
+    "word": "印象",
+    "pinyin": "yìn xiàng",
+    "vietnamese": "ấn tượng",
+    "category": "名词",
+    "example": "你对我女朋友的印象怎么样？",
+    "examplePinyin": "nǐ duì wǒ nǚ péng yǒu de yìn xiàng zěn me yàng",
+    "exampleVietnamese": "Bạn ấn tượng thế nào về bạn gái tôi?"
+  },
+  {
+    "id": 143,
+    "word": "优点",
+    "pinyin": "yōu diǎn",
+    "vietnamese": "ưu điểm",
+    "category": "名词",
+    "example": "每个人都有自己的优点。",
+    "examplePinyin": "měi gè rén dōu yǒu zì jǐ de yōu diǎn",
+    "exampleVietnamese": "Mỗi người đều có ưu điểm riêng."
+  },
+  {
+    "id": 144,
+    "word": "友谊",
+    "pinyin": "yǒu yì",
+    "vietnamese": "tình bạn",
+    "category": "名词",
+    "example": "他们的友谊很深。",
+    "examplePinyin": "tā men de yǒu yì hěn shēn",
+    "exampleVietnamese": "Tình bạn của họ rất sâu sắc."
+  },
+  {
+    "id": 145,
+    "word": "羽毛球",
+    "pinyin": "yǔ máo qiú",
+    "vietnamese": "cầu lông",
+    "category": "名词",
+    "example": "他偶尔也打打羽毛球。",
+    "examplePinyin": "tā ǒu ěr yě dǎ dǎ yǔ máo qiú",
+    "exampleVietnamese": "Thỉnh thoảng anh ấy cũng chơi cầu lông."
+  },
+  {
+    "id": 146,
+    "word": "语法",
+    "pinyin": "yǔ fǎ",
+    "vietnamese": "ngữ pháp",
+    "category": "名词",
+    "example": "语法很重要。",
+    "examplePinyin": "yǔ fǎ hěn zhòng yào",
+    "exampleVietnamese": "Ngữ pháp rất quan trọng."
+  },
+  {
+    "id": 147,
+    "word": "语言",
+    "pinyin": "yǔ yán",
+    "vietnamese": "ngôn ngữ",
+    "category": "名词",
+    "example": "汉语是一门有趣的语言。",
+    "examplePinyin": "hàn yǔ shì yì mén yǒu qù de yǔ yán",
+    "exampleVietnamese": "Tiếng Hán là một ngôn ngữ thú vị."
+  },
+  {
+    "id": 148,
+    "word": "原因",
+    "pinyin": "yuán yīn",
+    "vietnamese": "nguyên nhân",
+    "category": "名词",
+    "example": "只要找到原因，问题就解决了。",
+    "examplePinyin": "zhǐ yào zhǎo dào yuán yīn wèn tí jiù jiě jué le",
+    "exampleVietnamese": "Tìm được nguyên nhân là giải quyết được vấn đề."
+  },
+  {
+    "id": 149,
+    "word": "钥匙",
+    "pinyin": "yào shi",
+    "vietnamese": "chìa khóa",
+    "category": "名词",
+    "example": "你真是粗心，都忘记把钥匙放哪儿了。",
+    "examplePinyin": "nǐ zhēn shì cū xīn dōu wàng jì bǎ yào shi fàng nǎ ér le",
+    "exampleVietnamese": "Bạn thật cẩu thả, quên mất chìa khóa để đâu."
+  },
+  {
+    "id": 150,
+    "word": "杂志",
+    "pinyin": "zá zhì",
+    "vietnamese": "tạp chí",
+    "category": "名词",
+    "example": "今天天气不好，你还是在家看会儿杂志吧。",
+    "examplePinyin": "jīn tiān tiān qì bù hǎo nǐ hái shì zài jiā kàn huì er zá zhì ba",
+    "exampleVietnamese": "Hôm nay thời tiết không tốt, ở nhà đọc tạp chí đi."
+  },
+  {
+    "id": 151,
+    "word": "责任",
+    "pinyin": "zé rèn",
+    "vietnamese": "trách nhiệm",
+    "category": "名词",
+    "example": "保护环境是每个人的责任。",
+    "examplePinyin": "bǎo hù huán jìng shì měi gè rén de zé rèn",
+    "exampleVietnamese": "Bảo vệ môi trường là trách nhiệm của mọi người."
+  },
+  {
+    "id": 152,
+    "word": "知识",
+    "pinyin": "zhī shi",
+    "vietnamese": "kiến thức",
+    "category": "名词",
+    "example": "知识就是力量。",
+    "examplePinyin": "zhī shi jiù shì lì liàng",
+    "exampleVietnamese": "Tri thức là sức mạnh."
+  },
+  {
+    "id": 153,
+    "word": "职业",
+    "pinyin": "zhí yè",
+    "vietnamese": "nghề nghiệp",
+    "category": "名词",
+    "example": "他的职业是医生。",
+    "examplePinyin": "tā de zhí yè shì yī shēng",
+    "exampleVietnamese": "Nghề nghiệp của anh ấy là bác sĩ."
+  },
+  {
+    "id": 154,
+    "word": "植物",
+    "pinyin": "zhí wù",
+    "vietnamese": "thực vật",
+    "category": "名词",
+    "example": "这种植物很难养活。",
+    "examplePinyin": "zhè zhǒng zhí wù hěn nán yǎng huó",
+    "exampleVietnamese": "Loại cây này rất khó nuôi."
+  },
+  {
+    "id": 155,
+    "word": "质量",
+    "pinyin": "zhì liàng",
+    "vietnamese": "chất lượng",
+    "category": "名词",
+    "example": "这件衣服的质量还可以。",
+    "examplePinyin": "zhè jiàn yī fu de zhì liàng hái kě yǐ",
+    "exampleVietnamese": "Chất lượng bộ quần áo này còn được."
+  },
+  {
+    "id": 156,
+    "word": "重点",
+    "pinyin": "zhòng diǎn",
+    "vietnamese": "trọng điểm",
+    "category": "名词",
+    "example": "请抓住重点。",
+    "examplePinyin": "qǐng zhuā zhù zhòng diǎn",
+    "exampleVietnamese": "Hãy nắm trọng điểm."
+  },
+  {
+    "id": 157,
+    "word": "注意",
+    "pinyin": "zhù yì",
+    "vietnamese": "sự chú ý",
+    "category": "名词",
+    "example": "请注意安全。",
+    "examplePinyin": "qǐng zhù yì ān quán",
+    "exampleVietnamese": "Hãy chú ý an toàn."
+  },
+  {
+    "id": 158,
+    "word": "专业",
+    "pinyin": "zhuān yè",
+    "vietnamese": "chuyên ngành",
+    "category": "名词",
+    "example": "他的专业是中文。",
+    "examplePinyin": "tā de zhuān yè shì zhōng wén",
+    "exampleVietnamese": "Chuyên ngành của anh ấy là tiếng Trung."
+  },
+  {
+    "id": 159,
+    "word": "自然",
+    "pinyin": "zì rán",
+    "vietnamese": "tự nhiên",
+    "category": "名词",
+    "example": "我们要保护自然环境。",
+    "examplePinyin": "wǒ men yào bǎo hù zì rán huán jìng",
+    "exampleVietnamese": "Chúng ta phải bảo vệ môi trường tự nhiên."
+  },
+  {
+    "id": 160,
+    "word": "组织",
+    "pinyin": "zǔ zhī",
+    "vietnamese": "tổ chức",
+    "category": "名词",
+    "example": "他们组织这次活动的目的就是提高想象力。",
+    "examplePinyin": "tā men zǔ zhī zhè cì huó dòng de mù dì jiù shì tí gāo xiǎng xiàng lì",
+    "exampleVietnamese": "Họ tổ chức hoạt động này để nâng cao trí tưởng tượng."
+  },
+  {
+    "id": 161,
+    "word": "座位",
+    "pinyin": "zuò wèi",
+    "vietnamese": "chỗ ngồi",
+    "category": "名词",
+    "example": "请找到自己的座位。",
+    "examplePinyin": "qǐng zhǎo dào zì jǐ de zuò wèi",
+    "exampleVietnamese": "Hãy tìm chỗ ngồi của mình."
+  },
+  {
+    "id": 162,
+    "word": "表扬",
+    "pinyin": "biǎo yáng",
+    "vietnamese": "khen ngợi",
+    "category": "动词",
+    "example": "因为考了第一，老师表扬了他。",
+    "examplePinyin": "yīn wèi kǎo le dì yī lǎo shī biǎo yáng le tā",
+    "exampleVietnamese": "Vì thi đứng nhất, thầy khen anh ấy."
+  },
+  {
+    "id": 163,
+    "word": "干杯",
+    "pinyin": "gān bēi",
+    "vietnamese": "cạn ly",
+    "category": "动词",
+    "example": "来，为我们的事业干杯！",
+    "examplePinyin": "lái wèi wǒ men de shì yè gān bēi",
+    "exampleVietnamese": "Nào, cạn ly vì sự nghiệp của chúng ta!"
+  },
+  {
+    "id": 164,
+    "word": "请客",
+    "pinyin": "qǐng kè",
+    "vietnamese": "mời / chiêu đãi",
+    "category": "动词",
+    "example": "都别抢了，今天我请客。",
+    "examplePinyin": "dōu bié qiǎng le jīn tiān wǒ qǐng kè",
+    "exampleVietnamese": "Đừng tranh nữa, hôm nay tôi mời."
+  },
+  {
+    "id": 165,
+    "word": "同情",
+    "pinyin": "tóng qíng",
+    "vietnamese": "đồng cảm / thông cảm",
+    "category": "动词",
+    "example": "小张的车被偷了，大家很同情他。",
+    "examplePinyin": "xiǎo zhāng de chē bèi tōu le dà jiā hěn tóng qíng tā",
+    "exampleVietnamese": "Xe Tiểu Trương bị trộm, mọi người rất thông cảm."
+  },
+  {
+    "id": 166,
+    "word": "养成",
+    "pinyin": "yǎng chéng",
+    "vietnamese": "hình thành / nuôi dưỡng",
+    "category": "动词",
+    "example": "我们应该养成良好的学习习惯。",
+    "examplePinyin": "wǒ men yīng gāi yǎng chéng liáng hǎo de xué xí xí guàn",
+    "exampleVietnamese": "Chúng ta nên hình thành thói quen học tập tốt."
+  },
+  {
+    "id": 167,
+    "word": "安排",
+    "pinyin": "ān pái",
+    "vietnamese": "sắp xếp / an bài",
+    "category": "动词",
+    "example": "这次活动已经安排好了。",
+    "examplePinyin": "zhè cì huó dòng yǐ jīng ān pái hǎo le",
+    "exampleVietnamese": "Hoạt động này đã được sắp xếp xong."
+  },
+  {
+    "id": 168,
+    "word": "包括",
+    "pinyin": "bāo kuò",
+    "vietnamese": "bao gồm",
+    "category": "动词",
+    "example": "这次考试包括笔试和口试两部分。",
+    "examplePinyin": "zhè cì kǎo shì bāo kuò bǐ shì hé kǒu shì liǎng bù fen",
+    "exampleVietnamese": "Kỳ thi này gồm thi viết và thi nói."
+  },
+  {
+    "id": 169,
+    "word": "保护",
+    "pinyin": "bǎo hù",
+    "vietnamese": "bảo vệ",
+    "category": "动词",
+    "example": "保护环境是每个人的责任。",
+    "examplePinyin": "bǎo hù huán jìng shì měi gè rén de zé rèn",
+    "exampleVietnamese": "Bảo vệ môi trường là trách nhiệm của mọi người."
+  },
+  {
+    "id": 170,
+    "word": "保证",
+    "pinyin": "bǎo zhèng",
+    "vietnamese": "đảm bảo / cam kết",
+    "category": "动词",
+    "example": "我保证下次再也不迟到了。",
+    "examplePinyin": "wǒ bǎo zhèng xià cì zài yě bù chí dào le",
+    "exampleVietnamese": "Tôi cam kết lần sau không đến muộn nữa."
+  },
+  {
+    "id": 171,
+    "word": "报名",
+    "pinyin": "bào míng",
+    "vietnamese": "đăng ký",
+    "category": "动词",
+    "example": "这次考试我已经报名了。",
+    "examplePinyin": "zhè cì kǎo shì wǒ yǐ jīng bào míng le",
+    "exampleVietnamese": "Kỳ thi này tôi đã đăng ký rồi."
+  },
+  {
+    "id": 172,
+    "word": "毕业",
+    "pinyin": "bì yè",
+    "vietnamese": "tốt nghiệp",
+    "category": "动词",
+    "example": "他毕业于北京大学。",
+    "examplePinyin": "tā bì yè yú běi jīng dà xué",
+    "exampleVietnamese": "Anh ấy tốt nghiệp Đại học Bắc Kinh."
+  },
+  {
+    "id": 173,
+    "word": "擦",
+    "pinyin": "cā",
+    "vietnamese": "lau / chùi",
+    "category": "动词",
+    "example": "校长正在擦玻璃。",
+    "examplePinyin": "xiào zhǎng zhèng zài cā bō lí",
+    "exampleVietnamese": "Hiệu trưởng đang lau kính."
+  },
+  {
+    "id": 174,
+    "word": "猜",
+    "pinyin": "cāi",
+    "vietnamese": "đoán",
+    "category": "动词",
+    "example": "我猜小红是北方人。",
+    "examplePinyin": "wǒ cāi xiǎo hóng shì běi fāng rén",
+    "exampleVietnamese": "Tôi đoán Tiểu Hồng là người miền Bắc."
+  },
+  {
+    "id": 175,
+    "word": "参观",
+    "pinyin": "cān guān",
+    "vietnamese": "tham quan",
+    "category": "动词",
+    "example": "我昨天参观了他们公司，真大。",
+    "examplePinyin": "wǒ zuó tiān cān guān le tā men gōng sī zhēn dà",
+    "exampleVietnamese": "Hôm qua tôi tham quan công ty họ, thật lớn."
+  },
+  {
+    "id": 176,
+    "word": "尝",
+    "pinyin": "cháng",
+    "vietnamese": "nếm / thử",
+    "category": "动词",
+    "example": "你尝一尝这道菜怎么样？",
+    "examplePinyin": "nǐ cháng yi cháng zhè dào cài zěn me yàng",
+    "exampleVietnamese": "Bạn thử món này xem sao?"
+  },
+  {
+    "id": 177,
+    "word": "乘坐",
+    "pinyin": "chéng zuò",
+    "vietnamese": "đi / ngồi (phương tiện)",
+    "category": "动词",
+    "example": "欢迎大家乘坐本次航班。",
+    "examplePinyin": "huān yíng dà jiā chéng zuò běn cì háng bān",
+    "exampleVietnamese": "Chào mừng quý khách đi chuyến bay này."
+  },
+  {
+    "id": 178,
+    "word": "抽烟",
+    "pinyin": "chōu yān",
+    "vietnamese": "hút thuốc",
+    "category": "动词",
+    "example": "抽烟有害健康。",
+    "examplePinyin": "chōu yān yǒu hài jiàn kāng",
+    "exampleVietnamese": "Hút thuốc có hại cho sức khỏe."
+  },
+  {
+    "id": 179,
+    "word": "出差",
+    "pinyin": "chū chāi",
+    "vietnamese": "đi công tác",
+    "category": "动词",
+    "example": "由于工作的需要，他经常去外地出差。",
+    "examplePinyin": "yóu yú gōng zuò de xū yào tā jīng cháng qù wài dì chū chāi",
+    "exampleVietnamese": "Vì công việc, anh ấy thường đi công tác."
+  },
+  {
+    "id": 180,
+    "word": "出发",
+    "pinyin": "chū fā",
+    "vietnamese": "xuất phát / khởi hành",
+    "category": "动词",
+    "example": "你明天几点出发？",
+    "examplePinyin": "nǐ míng tiān jǐ diǎn chū fā",
+    "exampleVietnamese": "Ngày mai bạn khởi hành lúc mấy giờ?"
+  },
+  {
+    "id": 181,
+    "word": "出生",
+    "pinyin": "chū shēng",
+    "vietnamese": "sinh ra",
+    "category": "动词",
+    "example": "她出生于一个医生家庭。",
+    "examplePinyin": "tā chū shēng yú yí gè yī shēng jiā tíng",
+    "exampleVietnamese": "Cô ấy sinh ra trong gia đình bác sĩ."
+  },
+  {
+    "id": 182,
+    "word": "打扮",
+    "pinyin": "dǎ bàn",
+    "vietnamese": "trang điểm / ăn mặc",
+    "category": "动词",
+    "example": "小红特别喜欢打扮。",
+    "examplePinyin": "xiǎo hóng tè bié xǐ huan dǎ bàn",
+    "exampleVietnamese": "Tiểu Hồng đặc biệt thích trang điểm."
+  },
+  {
+    "id": 183,
+    "word": "打扰",
+    "pinyin": "dǎ rǎo",
+    "vietnamese": "làm phiền",
+    "category": "动词",
+    "example": "现在是午休时间，别去打扰别人。",
+    "examplePinyin": "xiàn zài shì wǔ xiū shí jiān bié qù dǎ rǎo bié rén",
+    "exampleVietnamese": "Giờ nghỉ trưa, đừng làm phiền người khác."
+  },
+  {
+    "id": 184,
+    "word": "打印",
+    "pinyin": "dǎ yìn",
+    "vietnamese": "in",
+    "category": "动词",
+    "example": "他正在打印一份材料。",
+    "examplePinyin": "tā zhèng zài dǎ yìn yí fèn cái liào",
+    "exampleVietnamese": "Anh ấy đang in một tài liệu."
+  },
+  {
+    "id": 185,
+    "word": "打折",
+    "pinyin": "dǎ zhé",
+    "vietnamese": "giảm giá",
+    "category": "动词",
+    "example": "现在商场正在打折，东西很便宜。",
+    "examplePinyin": "xiàn zài shāng chǎng zhèng zài dǎ zhé dōng xī hěn pián yi",
+    "exampleVietnamese": "Siêu thị đang giảm giá, đồ rất rẻ."
+  },
+  {
+    "id": 186,
+    "word": "打针",
+    "pinyin": "dǎ zhēn",
+    "vietnamese": "tiêm",
+    "category": "动词",
+    "example": "小时候，我最怕去医院打针了。",
+    "examplePinyin": "xiǎo shí hòu wǒ zuì pà qù yī yuàn dǎ zhēn le",
+    "exampleVietnamese": "Hồi nhỏ tôi sợ nhất là đi bệnh viện tiêm."
+  },
+  {
+    "id": 187,
+    "word": "戴",
+    "pinyin": "dài",
+    "vietnamese": "đeo / đội",
+    "category": "动词",
+    "example": "他戴着一副黑色眼镜。",
+    "examplePinyin": "tā dài zhe yí fù hēi sè yǎn jìng",
+    "exampleVietnamese": "Anh ấy đeo kính đen."
+  },
+  {
+    "id": 188,
+    "word": "代替",
+    "pinyin": "dài tì",
+    "vietnamese": "thay thế",
+    "category": "动词",
+    "example": "校长生病了，我代替她参加比赛。",
+    "examplePinyin": "xiào zhǎng shēng bìng le wǒ dài tì tā cān jiā bǐ sài",
+    "exampleVietnamese": "Hiệu trưởng ốm, tôi thay cô tham gia thi."
+  },
+  {
+    "id": 189,
+    "word": "道歉",
+    "pinyin": "dào qiàn",
+    "vietnamese": "xin lỗi",
+    "category": "动词",
+    "example": "我真心向你道歉，那天是我不对。",
+    "examplePinyin": "wǒ zhēn xīn xiàng nǐ dào qiàn nà tiān shì wǒ bú duì",
+    "exampleVietnamese": "Tôi chân thành xin lỗi bạn, hôm đó là lỗi tôi."
+  },
+  {
+    "id": 190,
+    "word": "堵车",
+    "pinyin": "dǔ chē",
+    "vietnamese": "kẹt xe",
+    "category": "动词",
+    "example": "北京的交通状况不好，经常堵车。",
+    "examplePinyin": "běi jīng de jiāo tōng zhuàng kuàng bù hǎo jīng cháng dǔ chē",
+    "exampleVietnamese": "Giao thông Bắc Kinh không tốt, hay kẹt xe."
+  },
+  {
+    "id": 191,
+    "word": "翻译",
+    "pinyin": "fān yì",
+    "vietnamese": "dịch",
+    "category": "动词",
+    "example": "他正在翻译一本英文小说。",
+    "examplePinyin": "tā zhèng zài fān yì yì běn yīng wén xiǎo shuō",
+    "exampleVietnamese": "Anh ấy đang dịch một cuốn tiểu thuyết tiếng Anh."
+  },
+  {
+    "id": 192,
+    "word": "反对",
+    "pinyin": "fǎn duì",
+    "vietnamese": "phản đối",
+    "category": "动词",
+    "example": "因为马上就要考试了，所以他反对举行这次比赛。",
+    "examplePinyin": "yīn wèi mǎ shàng jiù yào kǎo shì le suǒ yǐ tā fǎn duì jǔ xíng zhè cì bǐ sài",
+    "exampleVietnamese": "Sắp thi nên anh ấy phản đối tổ chức cuộc thi."
+  },
+  {
+    "id": 193,
+    "word": "反映",
+    "pinyin": "fǎn yìng",
+    "vietnamese": "phản ánh",
+    "category": "动词",
+    "example": "同学们有任何意见都可以向学校反映。",
+    "examplePinyin": "tóng xué men yǒu rèn hé yì jiàn dōu kě yǐ xiàng xué xiào fǎn yìng",
+    "exampleVietnamese": "Sinh viên có ý kiến gì đều có thể phản ánh với trường."
+  },
+  {
+    "id": 194,
+    "word": "访问",
+    "pinyin": "fǎng wèn",
+    "vietnamese": "thăm / phỏng vấn",
+    "category": "动词",
+    "example": "王经理正在美国访问。",
+    "examplePinyin": "wáng jīng lǐ zhèng zài měi guó fǎng wèn",
+    "exampleVietnamese": "Quản lý Vương đang thăm Mỹ."
+  },
+  {
+    "id": 195,
+    "word": "放弃",
+    "pinyin": "fàng qì",
+    "vietnamese": "từ bỏ",
+    "category": "动词",
+    "example": "她放弃了这次比赛。",
+    "examplePinyin": "tā fàng qì le zhè cì bǐ sài",
+    "exampleVietnamese": "Cô ấy từ bỏ cuộc thi này."
+  },
+  {
+    "id": 196,
+    "word": "符合",
+    "pinyin": "fú hé",
+    "vietnamese": "phù hợp",
+    "category": "动词",
+    "example": "产品一定要符合消费者的要求。",
+    "examplePinyin": "chǎn pǐn yí dìng yào fú hé xiāo fèi zhě de yāo qiú",
+    "exampleVietnamese": "Sản phẩm phải phù hợp yêu cầu người tiêu dùng."
+  },
+  {
+    "id": 197,
+    "word": "复印",
+    "pinyin": "fù yìn",
+    "vietnamese": "photocopy",
+    "category": "动词",
+    "example": "我正在复印一些资料。",
+    "examplePinyin": "wǒ zhèng zài fù yìn yì xiē zī liào",
+    "exampleVietnamese": "Tôi đang photocopy một số tài liệu."
+  },
+  {
+    "id": 198,
+    "word": "负责",
+    "pinyin": "fù zé",
+    "vietnamese": "phụ trách / chịu trách nhiệm",
+    "category": "动词",
+    "example": "他负责此次活动。",
+    "examplePinyin": "tā fù zé cǐ cì huó dòng",
+    "exampleVietnamese": "Anh ấy phụ trách hoạt động này."
+  },
+  {
+    "id": 199,
+    "word": "改变",
+    "pinyin": "gǎi biàn",
+    "vietnamese": "thay đổi",
+    "category": "动词",
+    "example": "下雨了，他只好改变今天的计划。",
+    "examplePinyin": "xià yǔ le tā zhǐ hǎo gǎi biàn jīn tiān de jì huà",
+    "exampleVietnamese": "Trời mưa, anh ấy đành thay đổi kế hoạch."
+  },
+  {
+    "id": 200,
+    "word": "感动",
+    "pinyin": "gǎn dòng",
+    "vietnamese": "cảm động",
+    "category": "动词",
+    "example": "大家的帮助让小王非常感动。",
+    "examplePinyin": "dà jiā de bāng zhù ràng xiǎo wáng fēi cháng gǎn dòng",
+    "exampleVietnamese": "Sự giúp đỡ của mọi người khiến Tiểu Vương rất cảm động."
+  },
+  {
+    "id": 201,
+    "word": "购物",
+    "pinyin": "gòu wù",
+    "vietnamese": "mua sắm",
+    "category": "动词",
+    "example": "女孩子都喜欢逛街购物。",
+    "examplePinyin": "nǚ hái zi dōu xǐ huan guàng jiē gòu wù",
+    "exampleVietnamese": "Con gái đều thích đi mua sắm."
+  },
+  {
+    "id": 202,
+    "word": "估计",
+    "pinyin": "gū jì",
+    "vietnamese": "ước tính",
+    "category": "动词",
+    "example": "我估计这次考试不会太难。",
+    "examplePinyin": "wǒ gū jì zhè cì kǎo shì bú huì tài nán",
+    "exampleVietnamese": "Tôi ước tính kỳ thi này không quá khó."
+  },
+  {
+    "id": 203,
+    "word": "鼓励",
+    "pinyin": "gǔ lì",
+    "vietnamese": "khuyến khích / động viên",
+    "category": "动词",
+    "example": "老师鼓励我多跟中国人交流。",
+    "examplePinyin": "lǎo shī gǔ lì wǒ duō gēn zhōng guó rén jiāo liú",
+    "exampleVietnamese": "Thầy khuyến khích tôi giao lưu với người Trung Quốc."
+  },
+  {
+    "id": 204,
+    "word": "鼓掌",
+    "pinyin": "gǔ zhǎng",
+    "vietnamese": "vỗ tay",
+    "category": "动词",
+    "example": "大家都在为他的精彩表演鼓掌。",
+    "examplePinyin": "dà jiā dōu zài wèi tā de jīng cǎi biǎo yǎn gǔ zhǎng",
+    "exampleVietnamese": "Mọi người vỗ tay cho màn trình diễn hay của anh ấy."
+  },
+  {
+    "id": 205,
+    "word": "挂",
+    "pinyin": "guà",
+    "vietnamese": "treo",
+    "category": "动词",
+    "example": "墙上挂着一张画。",
+    "examplePinyin": "qiáng shàng guà zhe yì zhāng huà",
+    "exampleVietnamese": "Trên tường treo một bức tranh."
+  },
+  {
+    "id": 206,
+    "word": "逛",
+    "pinyin": "guàng",
+    "vietnamese": "dạo chơi / đi loanh quanh",
+    "category": "动词",
+    "example": "学了一天了，我想出去逛逛。",
+    "examplePinyin": "xué le yì tiān le wǒ xiǎng chū qù guàng guàng",
+    "exampleVietnamese": "Học cả ngày rồi, tôi muốn ra ngoài dạo."
+  },
+  {
+    "id": 207,
+    "word": "合格",
+    "pinyin": "hé gé",
+    "vietnamese": "đạt chuẩn / đủ tiêu chuẩn",
+    "category": "动词",
+    "example": "这些产品质量都不合格。",
+    "examplePinyin": "zhè xiē chǎn pǐn zhì liàng dōu bù hé gé",
+    "exampleVietnamese": "Chất lượng sản phẩm này đều không đạt."
+  },
+  {
+    "id": 208,
+    "word": "后悔",
+    "pinyin": "hòu huǐ",
+    "vietnamese": "hối hận",
+    "category": "动词",
+    "example": "考试的时候，他很后悔没认真复习。",
+    "examplePinyin": "kǎo shì de shí hòu tā hěn hòu huǐ méi rèn zhēn fù xí",
+    "exampleVietnamese": "Lúc thi anh ấy rất hối hận vì không ôn kỹ."
+  },
+  {
+    "id": 209,
+    "word": "怀疑",
+    "pinyin": "huái yí",
+    "vietnamese": "nghi ngờ",
+    "category": "动词",
+    "example": "老师怀疑他是来替人考试的。",
+    "examplePinyin": "lǎo shī huái yí tā shì lái tì rén kǎo shì de",
+    "exampleVietnamese": "Thầy nghi anh ấy thi thay người khác."
+  },
+  {
+    "id": 210,
+    "word": "回忆",
+    "pinyin": "huí yì",
+    "vietnamese": "hồi tưởng",
+    "category": "动词",
+    "example": "我经常回忆在北京留学的生活。",
+    "examplePinyin": "wǒ jīng cháng huí yì zài běi jīng liú xué de shēng huó",
+    "exampleVietnamese": "Tôi thường hồi tưởng cuộc sống du học Bắc Kinh."
+  },
+  {
+    "id": 211,
+    "word": "获得",
+    "pinyin": "huò dé",
+    "vietnamese": "đạt được / nhận được",
+    "category": "动词",
+    "example": "他获得了成功。",
+    "examplePinyin": "tā huò dé le chéng gōng",
+    "exampleVietnamese": "Anh ấy đạt được thành công."
+  },
+  {
+    "id": 212,
+    "word": "积累",
+    "pinyin": "jī lěi",
+    "vietnamese": "tích lũy",
+    "category": "动词",
+    "example": "经过这几次比赛，他积累了很多经验。",
+    "examplePinyin": "jīng guò zhè jǐ cì bǐ sài tā jī lěi le hěn duō jīng yàn",
+    "exampleVietnamese": "Qua mấy cuộc thi, anh ấy tích lũy nhiều kinh nghiệm."
+  },
+  {
+    "id": 213,
+    "word": "集合",
+    "pinyin": "jí hé",
+    "vietnamese": "tập hợp / tụ họp",
+    "category": "动词",
+    "example": "明天八点在校门口集合。",
+    "examplePinyin": "míng tiān bā diǎn zài xiào mén kǒu jí hé",
+    "exampleVietnamese": "Mai 8 giờ tập trung cổng trường."
+  },
+  {
+    "id": 214,
+    "word": "寄",
+    "pinyin": "jì",
+    "vietnamese": "gửi",
+    "category": "动词",
+    "example": "我给家里寄了一封信。",
+    "examplePinyin": "wǒ gěi jiā lǐ jì le yì fēng xìn",
+    "exampleVietnamese": "Tôi gửi một bức thư về nhà."
+  },
+  {
+    "id": 215,
+    "word": "继续",
+    "pinyin": "jì xù",
+    "vietnamese": "tiếp tục",
+    "category": "动词",
+    "example": "这个周末还要继续加班。",
+    "examplePinyin": "zhè ge zhōu mò hái yào jì xù jiā bān",
+    "exampleVietnamese": "Cuối tuần này vẫn phải làm thêm."
+  },
+  {
+    "id": 216,
+    "word": "坚持",
+    "pinyin": "jiān chí",
+    "vietnamese": "kiên trì / cố gắng",
+    "category": "动词",
+    "example": "为了减肥，他每天都坚持跑步。",
+    "examplePinyin": "wèi le jiǎn féi tā měi tiān dōu jiān chí pǎo bù",
+    "exampleVietnamese": "Để giảm cân, anh ấy mỗi ngày đều chạy bộ."
+  },
+  {
+    "id": 217,
+    "word": "交",
+    "pinyin": "jiāo",
+    "vietnamese": "nộp / giao",
+    "category": "动词",
+    "example": "大家把作业交上去了。",
+    "examplePinyin": "dà jiā bǎ zuò yè jiāo shàng qù le",
+    "exampleVietnamese": "Mọi người nộp bài tập rồi."
+  },
+  {
+    "id": 218,
+    "word": "交流",
+    "pinyin": "jiāo liú",
+    "vietnamese": "giao lưu / trao đổi",
+    "category": "动词",
+    "example": "大家经常交流学习经验。",
+    "examplePinyin": "dà jiā jīng cháng jiāo liú xué xí jīng yàn",
+    "exampleVietnamese": "Mọi người thường trao đổi kinh nghiệm học tập."
+  },
+  {
+    "id": 219,
+    "word": "接受",
+    "pinyin": "jiē shòu",
+    "vietnamese": "chấp nhận",
+    "category": "动词",
+    "example": "我不能接受他的道歉。",
+    "examplePinyin": "wǒ bù néng jiē shòu tā de dào qiàn",
+    "exampleVietnamese": "Tôi không thể chấp nhận lời xin lỗi của anh ấy."
+  },
+  {
+    "id": 220,
+    "word": "节约",
+    "pinyin": "jié yuē",
+    "vietnamese": "tiết kiệm",
+    "category": "动词",
+    "example": "大家要节约用水。",
+    "examplePinyin": "dà jiā yào jié yuē yòng shuǐ",
+    "exampleVietnamese": "Mọi người hãy tiết kiệm nước."
+  },
+  {
+    "id": 221,
+    "word": "解释",
+    "pinyin": "jiě shì",
+    "vietnamese": "giải thích",
+    "category": "动词",
+    "example": "老师，您能解释一下这个词的意思吗？",
+    "examplePinyin": "lǎo shī nín néng jiě shì yí xià zhè ge cí de yì sī ma",
+    "exampleVietnamese": "Thầy có thể giải thích nghĩa từ này không?"
+  },
+  {
+    "id": 222,
+    "word": "进行",
+    "pinyin": "jìn xíng",
+    "vietnamese": "tiến hành",
+    "category": "动词",
+    "example": "会议正在进行。",
+    "examplePinyin": "huì yì zhèng zài jìn xíng",
+    "exampleVietnamese": "Cuộc họp đang tiến hành."
+  },
+  {
+    "id": 223,
+    "word": "禁止",
+    "pinyin": "jìn zhǐ",
+    "vietnamese": "cấm",
+    "category": "动词",
+    "example": "教室里禁止吸烟。",
+    "examplePinyin": "jiào shì lǐ jìn zhǐ xī yān",
+    "exampleVietnamese": "Trong lớp cấm hút thuốc."
+  },
+  {
+    "id": 224,
+    "word": "竞争",
+    "pinyin": "jìng zhēng",
+    "vietnamese": "cạnh tranh",
+    "category": "动词",
+    "example": "成功者不怕竞争。",
+    "examplePinyin": "chéng gōng zhě bú pà jìng zhēng",
+    "exampleVietnamese": "Người thành công không sợ cạnh tranh."
+  },
+  {
+    "id": 225,
+    "word": "举办",
+    "pinyin": "jǔ bàn",
+    "vietnamese": "tổ chức",
+    "category": "动词",
+    "example": "学校要举办一次晚会。",
+    "examplePinyin": "xué xiào yào jǔ bàn yí cì wǎn huì",
+    "exampleVietnamese": "Trường sẽ tổ chức một buổi tiệc."
+  },
+  {
+    "id": 226,
+    "word": "拒绝",
+    "pinyin": "jù jué",
+    "vietnamese": "từ chối",
+    "category": "动词",
+    "example": "我拒绝了他的要求。",
+    "examplePinyin": "wǒ jù jué le tā de yāo qiú",
+    "exampleVietnamese": "Tôi từ chối yêu cầu của anh ấy."
+  },
+  {
+    "id": 227,
+    "word": "考虑",
+    "pinyin": "kǎo lǜ",
+    "vietnamese": "cân nhắc / suy nghĩ",
+    "category": "动词",
+    "example": "不要光想着自己，多考虑考虑别人。",
+    "examplePinyin": "bú yào guāng xiǎng zhe zì jǐ duō kǎo lǜ kǎo lǜ bié rén",
+    "exampleVietnamese": "Đừng chỉ nghĩ mình, hãy nghĩ cho người khác."
+  },
+  {
+    "id": 228,
+    "word": "咳嗽",
+    "pinyin": "ké sou",
+    "vietnamese": "ho",
+    "category": "动词",
+    "example": "他生病了，一直在咳嗽。",
+    "examplePinyin": "tā shēng bìng le yì zhí zài ké sou",
+    "exampleVietnamese": "Anh ấy ốm, ho liên tục."
+  },
+  {
+    "id": 229,
+    "word": "可怜",
+    "pinyin": "kě lián",
+    "vietnamese": "đáng thương",
+    "category": "动词",
+    "example": "他三岁就失去了父母，大家很可怜他。",
+    "examplePinyin": "tā sān suì jiù shī qù le fù mǔ dà jiā hěn kě lián tā",
+    "exampleVietnamese": "Anh ấy mất cha mẹ lúc 3 tuổi, mọi người thương."
+  },
+  {
+    "id": 230,
+    "word": "可惜",
+    "pinyin": "kě xī",
+    "vietnamese": "đáng tiếc",
+    "category": "动词",
+    "example": "这次比赛非常重要，可惜我有伤不能参加。",
+    "examplePinyin": "zhè cì bǐ sài fēi cháng zhòng yào kě xī wǒ yǒu shāng bù néng cān jiā",
+    "exampleVietnamese": "Cuộc thi rất quan trọng, tiếc là tôi bị thương."
+  },
+  {
+    "id": 231,
+    "word": "肯定",
+    "pinyin": "kěn dìng",
+    "vietnamese": "khẳng định / chắc chắn",
+    "category": "动词",
+    "example": "老师肯定了他的进步。",
+    "examplePinyin": "lǎo shī kěn dìng le tā de jìn bù",
+    "exampleVietnamese": "Thầy khẳng định sự tiến bộ của anh ấy."
+  },
+  {
+    "id": 232,
+    "word": "来不及",
+    "pinyin": "lái bù jí",
+    "vietnamese": "không kịp",
+    "category": "动词",
+    "example": "再不出发的话，就来不及上车了。",
+    "examplePinyin": "zài bù chū fā de huà jiù lái bù jí shàng chē le",
+    "exampleVietnamese": "Không xuất phát nữa thì không kịp lên tàu."
+  },
+  {
+    "id": 233,
+    "word": "来得及",
+    "pinyin": "lái de jí",
+    "vietnamese": "kịp / còn kịp",
+    "category": "动词",
+    "example": "来得及，还有三个小时呢。",
+    "examplePinyin": "lái de jí hái yǒu sān gè xiǎo shí ne",
+    "exampleVietnamese": "Còn kịp, còn ba tiếng nữa mà."
+  },
+  {
+    "id": 234,
+    "word": "浪费",
+    "pinyin": "làng fèi",
+    "vietnamese": "lãng phí",
+    "category": "动词",
+    "example": "这样做完全是浪费时间。",
+    "examplePinyin": "zhè yàng zuò wán quán shì làng fèi shí jiān",
+    "exampleVietnamese": "Làm vậy hoàn toàn lãng phí thời gian."
+  },
+  {
+    "id": 235,
+    "word": "理发",
+    "pinyin": "lǐ fā",
+    "vietnamese": "cắt tóc",
+    "category": "动词",
+    "example": "头发都这么长了，该去理发了吧。",
+    "examplePinyin": "tóu fa dōu zhè me cháng le gāi qù lǐ fā le ba",
+    "exampleVietnamese": "Tóc dài thế rồi, nên đi cắt tóc."
+  },
+  {
+    "id": 236,
+    "word": "理解",
+    "pinyin": "lǐ jiě",
+    "vietnamese": "hiểu / thông cảm",
+    "category": "动词",
+    "example": "我知道他为什么这么做，所以很理解他。",
+    "examplePinyin": "wǒ zhī dào tā wèi shén me zhè me zuò suǒ yǐ hěn lǐ jiě tā",
+    "exampleVietnamese": "Tôi hiểu tại sao anh ấy làm vậy nên thông cảm."
+  },
+  {
+    "id": 237,
+    "word": "联系",
+    "pinyin": "lián xì",
+    "vietnamese": "liên lạc",
+    "category": "动词",
+    "example": "毕业后，同学们很少跟我联系。",
+    "examplePinyin": "bì yè hòu tóng xué men hěn shǎo gēn wǒ lián xì",
+    "exampleVietnamese": "Sau khi tốt nghiệp, bạn bè ít liên lạc với tôi."
+  },
+  {
+    "id": 238,
+    "word": "聊天",
+    "pinyin": "liáo tiān",
+    "vietnamese": "trò chuyện / chat",
+    "category": "动词",
+    "example": "他喜欢在网上跟人聊天。",
+    "examplePinyin": "tā xǐ huan zài wǎng shàng gēn rén liáo tiān",
+    "exampleVietnamese": "Anh ấy thích chat trên mạng."
+  },
+  {
+    "id": 239,
+    "word": "留学",
+    "pinyin": "liú xué",
+    "vietnamese": "du học",
+    "category": "动词",
+    "example": "他来中国留学已经三年了。",
+    "examplePinyin": "tā lái zhōng guó liú xué yǐ jīng sān nián le",
+    "exampleVietnamese": "Anh ấy du học Trung Quốc đã ba năm."
+  },
+  {
+    "id": 240,
+    "word": "流泪",
+    "pinyin": "liú lèi",
+    "vietnamese": "rơi nước mắt",
+    "category": "动词",
+    "example": "看电影的时候经常流泪。",
+    "examplePinyin": "kàn diàn yǐng de shí hòu jīng cháng liú lèi",
+    "exampleVietnamese": "Xem phim thường rơi nước mắt."
+  },
+  {
+    "id": 241,
+    "word": "流行",
+    "pinyin": "liú xíng",
+    "vietnamese": "phổ biến / thịnh hành",
+    "category": "动词",
+    "example": "以前很流行这种打扮。",
+    "examplePinyin": "yǐ qián hěn liú xíng zhè zhǒng dǎ bàn",
+    "exampleVietnamese": "Trước đây kiểu trang điểm này rất thịnh hành."
+  },
+  {
+    "id": 242,
+    "word": "免费",
+    "pinyin": "miǎn fèi",
+    "vietnamese": "miễn phí",
+    "category": "动词",
+    "example": "这些礼物都是免费的，不要钱。",
+    "examplePinyin": "zhè xiē lǐ wù dōu shì miǎn fèi de bú yào qián",
+    "exampleVietnamese": "Những món quà này đều miễn phí."
+  },
+  {
+    "id": 243,
+    "word": "陪",
+    "pinyin": "péi",
+    "vietnamese": "đồng hành / ở cùng",
+    "category": "动词",
+    "example": "我陪你去吧，可以顺便活动活动。",
+    "examplePinyin": "wǒ péi nǐ qù ba kě yǐ shùn biàn huó dòng huó dòng",
+    "exampleVietnamese": "Tôi đi cùng bạn, tiện vận động chút."
+  },
+  {
+    "id": 244,
+    "word": "批评",
+    "pinyin": "pī píng",
+    "vietnamese": "phê bình",
+    "category": "动词",
+    "example": "这次考试，我被老师批评了。",
+    "examplePinyin": "zhè cì kǎo shì wǒ bèi lǎo shī pī píng le",
+    "exampleVietnamese": "Kỳ thi này tôi bị thầy phê bình."
+  },
+  {
+    "id": 245,
+    "word": "骗",
+    "pinyin": "piàn",
+    "vietnamese": "lừa",
+    "category": "动词",
+    "example": "小东老骗人，这次又骗了我100块钱。",
+    "examplePinyin": "xiǎo dōng lǎo piàn rén zhè cì yòu piàn le wǒ kuài qián",
+    "exampleVietnamese": "Tiểu Đông hay lừa người, lần này lừa tôi 100 tệ."
+  },
+  {
+    "id": 246,
+    "word": "起飞",
+    "pinyin": "qǐ fēi",
+    "vietnamese": "cất cánh",
+    "category": "动词",
+    "example": "开往北京的航班已经起飞了。",
+    "examplePinyin": "kāi wǎng běi jīng de háng bān yǐ jīng qǐ fēi le",
+    "exampleVietnamese": "Chuyến bay đi Bắc Kinh đã cất cánh."
+  },
+  {
+    "id": 247,
+    "word": "敲",
+    "pinyin": "qiāo",
+    "vietnamese": "gõ / đánh (cửa)",
+    "category": "动词",
+    "example": "敲门的时候要有礼貌。",
+    "examplePinyin": "qiāo mén de shí hòu yào yǒu lǐ mào",
+    "exampleVietnamese": "Gõ cửa phải lịch sự."
+  },
+  {
+    "id": 248,
+    "word": "商量",
+    "pinyin": "shāng liáng",
+    "vietnamese": "bàn bạc / thương lượng",
+    "category": "动词",
+    "example": "我想跟大家商量商量考试的事情。",
+    "examplePinyin": "wǒ xiǎng gēn dà jiā shāng liáng shāng liáng kǎo shì de shì qíng",
+    "exampleVietnamese": "Tôi muốn bàn với mọi người về kỳ thi."
+  },
+  {
+    "id": 249,
+    "word": "失败",
+    "pinyin": "shī bài",
+    "vietnamese": "thất bại",
+    "category": "动词",
+    "example": "虽然这次我失败了，但我并没有失去信心。",
+    "examplePinyin": "suī rán zhè cì wǒ shī bài le dàn wǒ bìng méi yǒu shī qù xìn xīn",
+    "exampleVietnamese": "Dù thất bại nhưng tôi không mất tự tin."
+  },
+  {
+    "id": 250,
+    "word": "适合",
+    "pinyin": "shì hé",
+    "vietnamese": "phù hợp",
+    "category": "动词",
+    "example": "你的皮肤白，这件衣服肯定适合你。",
+    "examplePinyin": "nǐ de pí fū bái zhè jiàn yī fu kěn dìng shì hé nǐ",
+    "exampleVietnamese": "Da bạn trắng, bộ quần áo này chắc hợp."
+  },
+  {
+    "id": 251,
+    "word": "适应",
+    "pinyin": "shì yìng",
+    "vietnamese": "thích nghi",
+    "category": "动词",
+    "example": "来中国一年多了，我已经适应了这里的生活。",
+    "examplePinyin": "lái zhōng guó yì nián duō le wǒ yǐ jīng shì yìng le zhè lǐ de shēng huó",
+    "exampleVietnamese": "Sang Trung Quốc hơn một năm, tôi đã thích nghi."
+  },
+  {
+    "id": 252,
+    "word": "收拾",
+    "pinyin": "shōu shí",
+    "vietnamese": "dọn dẹp",
+    "category": "动词",
+    "example": "太乱了，赶紧把家里的衣服收拾收拾。",
+    "examplePinyin": "tài luàn le gǎn jǐn bǎ jiā lǐ de yī fu shōu shí shōu shí",
+    "exampleVietnamese": "Lộn xộn quá, mau dọn quần áo đi."
+  },
+  {
+    "id": 253,
+    "word": "熟悉",
+    "pinyin": "shú xī",
+    "vietnamese": "quen thuộc",
+    "category": "动词",
+    "example": "他对这所大学很熟悉。",
+    "examplePinyin": "tā duì zhè suǒ dà xué hěn shú xī",
+    "exampleVietnamese": "Anh ấy rất quen với trường đại học này."
+  },
+  {
+    "id": 254,
+    "word": "信任",
+    "pinyin": "xìn rèn",
+    "vietnamese": "tin tưởng",
+    "category": "动词",
+    "example": "经理非常信任小张。",
+    "examplePinyin": "jīng lǐ fēi cháng xìn rèn xiǎo zhāng",
+    "exampleVietnamese": "Quản lý rất tin tưởng Tiểu Trương."
+  },
+  {
+    "id": 255,
+    "word": "预习",
+    "pinyin": "yù xí",
+    "vietnamese": "học trước / chuẩn bị bài",
+    "category": "动词",
+    "example": "学习新课前希望大家能预习一下课文。",
+    "examplePinyin": "xué xí xīn kè qián xī wàng dà jiā néng yù xí yí xià kè wén",
+    "exampleVietnamese": "Trước khi học bài mới, mong mọi người đọc trước."
+  },
+  {
+    "id": 256,
+    "word": "约会",
+    "pinyin": "yuē huì",
+    "vietnamese": "hẹn hò",
+    "category": "动词",
+    "example": "今天晚上我要跟小张约会。",
+    "examplePinyin": "jīn tiān wǎn shàng wǒ yào gēn xiǎo zhāng yuē huì",
+    "exampleVietnamese": "Tối nay tôi hẹn hò với Tiểu Trương."
+  },
+  {
+    "id": 257,
+    "word": "招聘",
+    "pinyin": "zhāo pìn",
+    "vietnamese": "tuyển dụng",
+    "category": "动词",
+    "example": "这个公司正在招聘员工。",
+    "examplePinyin": "zhè ge gōng sī zhèng zài zhāo pìn yuán gōng",
+    "exampleVietnamese": "Công ty này đang tuyển nhân viên."
+  },
+  {
+    "id": 258,
+    "word": "重视",
+    "pinyin": "zhòng shì",
+    "vietnamese": "coi trọng",
+    "category": "动词",
+    "example": "父母们非常重视孩子的教育问题。",
+    "examplePinyin": "fù mǔ men fēi cháng zhòng shì hái zi de jiào yù wèn tí",
+    "exampleVietnamese": "Cha mẹ rất coi trọng giáo dục con."
+  },
+  {
+    "id": 259,
+    "word": "赚",
+    "pinyin": "zhuàn",
+    "vietnamese": "kiếm (tiền)",
+    "category": "动词",
+    "example": "他的事业很成功，赚了很多钱。",
+    "examplePinyin": "tā de shì yè hěn chéng gōng zhuàn le hěn duō qián",
+    "exampleVietnamese": "Sự nghiệp thành công, anh ấy kiếm nhiều tiền."
+  },
+  {
+    "id": 260,
+    "word": "租",
+    "pinyin": "zū",
+    "vietnamese": "thuê",
+    "category": "动词",
+    "example": "我想租一个两室一厅。",
+    "examplePinyin": "wǒ xiǎng zū yí gè liǎng shì yì tīng",
+    "exampleVietnamese": "Tôi muốn thuê căn hai phòng ngủ một phòng khách."
+  },
+  {
+    "id": 261,
+    "word": "暖和",
+    "pinyin": "nuǎn huo",
+    "vietnamese": "ấm áp",
+    "category": "形容词",
+    "example": "今年冬天特别暖和。",
+    "examplePinyin": "jīn nián dōng tiān tè bié nuǎn huo",
+    "exampleVietnamese": "Mùa đông năm nay đặc biệt ấm áp."
+  },
+  {
+    "id": 262,
+    "word": "凉快",
+    "pinyin": "liáng kuai",
+    "vietnamese": "mát mẻ",
+    "category": "形容词",
+    "example": "今天挺凉快的。",
+    "examplePinyin": "jīn tiān tǐng liáng kuai de",
+    "exampleVietnamese": "Hôm nay khá mát."
+  },
+  {
+    "id": 263,
+    "word": "有趣",
+    "pinyin": "yǒu qù",
+    "vietnamese": "thú vị",
+    "category": "形容词",
+    "example": "这本小说挺有趣的。",
+    "examplePinyin": "zhè běn xiǎo shuō tǐng yǒu qù de",
+    "exampleVietnamese": "Cuốn tiểu thuyết này khá thú vị."
+  },
+  {
+    "id": 264,
+    "word": "成熟",
+    "pinyin": "chéng shú",
+    "vietnamese": "trưởng thành / chín chắn",
+    "category": "形容词",
+    "example": "她很成熟，做事情大家都放心。",
+    "examplePinyin": "tā hěn chéng shú zuò shì qíng dà jiā dōu fàng xīn",
+    "exampleVietnamese": "Cô ấy rất chín chắn, mọi người đều yên tâm."
+  },
+  {
+    "id": 265,
+    "word": "诚实",
+    "pinyin": "chéng shí",
+    "vietnamese": "thành thật / trung thực",
+    "category": "形容词",
+    "example": "她很诚实，从来不说假话。",
+    "examplePinyin": "tā hěn chéng shí cóng lái bù shuō jiǎ huà",
+    "exampleVietnamese": "Cô ấy rất thành thật, không nói dối."
+  },
+  {
+    "id": 266,
+    "word": "活泼",
+    "pinyin": "huó pō",
+    "vietnamese": "hoạt bát",
+    "category": "形容词",
+    "example": "他的性格非常活泼。",
+    "examplePinyin": "tā de xìng gé fēi cháng huó pō",
+    "exampleVietnamese": "Tính cách anh ấy rất hoạt bát."
+  },
+  {
+    "id": 267,
+    "word": "伤心",
+    "pinyin": "shāng xīn",
+    "vietnamese": "buồn / đau lòng",
+    "category": "形容词",
+    "example": "他没拿到签证，很伤心。",
+    "examplePinyin": "tā méi ná dào qiān zhèng hěn shāng xīn",
+    "exampleVietnamese": "Anh ấy không xin được visa, rất buồn."
+  },
+  {
+    "id": 268,
+    "word": "吃惊",
+    "pinyin": "chī jīng",
+    "vietnamese": "ngạc nhiên",
+    "category": "形容词",
+    "example": "谁都没想到小王竟然考了第一。",
+    "examplePinyin": "shuí dōu méi xiǎng dào xiǎo wáng jìng rán kǎo le dì yī",
+    "exampleVietnamese": "Không ai ngờ Tiểu Vương thi đứng nhất."
+  },
+  {
+    "id": 269,
+    "word": "得意",
+    "pinyin": "dé yì",
+    "vietnamese": "đắc ý",
+    "category": "形容词",
+    "example": "儿子考上了北京大学，她非常得意。",
+    "examplePinyin": "ér zi kǎo shàng le běi jīng dà xué tā fēi cháng dé yì",
+    "exampleVietnamese": "Con trai đỗ Đại học Bắc Kinh, cô ấy rất đắc ý."
+  },
+  {
+    "id": 270,
+    "word": "丰富",
+    "pinyin": "fēng fù",
+    "vietnamese": "phong phú",
+    "category": "形容词",
+    "example": "他的感情很丰富。",
+    "examplePinyin": "tā de gǎn qíng hěn fēng fù",
+    "exampleVietnamese": "Tình cảm của anh ấy rất phong phú."
+  },
+  {
+    "id": 271,
+    "word": "复杂",
+    "pinyin": "fù zá",
+    "vietnamese": "phức tạp",
+    "category": "形容词",
+    "example": "这台机器太复杂了。",
+    "examplePinyin": "zhè tái jī qì tài fù zá le",
+    "exampleVietnamese": "Cái máy này quá phức tạp."
+  },
+  {
+    "id": 272,
+    "word": "害羞",
+    "pinyin": "hài xiū",
+    "vietnamese": "ngại / nhút nhát",
+    "category": "形容词",
+    "example": "她很害羞，不敢跟男生说话。",
+    "examplePinyin": "tā hěn hài xiū bù gǎn gēn nán shēng shuō huà",
+    "exampleVietnamese": "Cô ấy rất ngại, không dám nói chuyện với con trai."
+  },
+  {
+    "id": 273,
+    "word": "厚",
+    "pinyin": "hòu",
+    "vietnamese": "dày",
+    "category": "形容词",
+    "example": "今天这么热，怎么还穿这么厚的衣服？",
+    "examplePinyin": "jīn tiān zhè me rè zěn me hái chuān zhè me hòu de yī fu",
+    "exampleVietnamese": "Nóng thế mà còn mặc quần áo dày?"
+  },
+  {
+    "id": 274,
+    "word": "激动",
+    "pinyin": "jī dòng",
+    "vietnamese": "xúc động / phấn khích",
+    "category": "形容词",
+    "example": "见到自己喜欢的歌星，他非常激动。",
+    "examplePinyin": "jiàn dào zì jǐ xǐ huan de gē xīng tā fēi cháng jī dòng",
+    "exampleVietnamese": "Gặp ca sĩ yêu thích, anh ấy rất xúc động."
+  },
+  {
+    "id": 275,
+    "word": "积极",
+    "pinyin": "jī jí",
+    "vietnamese": "tích cực",
+    "category": "形容词",
+    "example": "他在课堂上非常积极。",
+    "examplePinyin": "tā zài kè táng shàng fēi cháng jī jí",
+    "exampleVietnamese": "Trong lớp anh ấy rất tích cực."
+  },
+  {
+    "id": 276,
+    "word": "紧张",
+    "pinyin": "jǐn zhāng",
+    "vietnamese": "căng thẳng / lo lắng",
+    "category": "形容词",
+    "example": "第一次参加HSK考试，我有点儿紧张。",
+    "examplePinyin": "dì yī cì cān jiā kǎo shì wǒ yǒu diǎn er jǐn zhāng",
+    "exampleVietnamese": "Lần đầu thi HSK, tôi hơi căng thẳng."
+  },
+  {
+    "id": 277,
+    "word": "精彩",
+    "pinyin": "jīng cǎi",
+    "vietnamese": "xuất sắc / hay",
+    "category": "形容词",
+    "example": "今天的京剧表演非常精彩。",
+    "examplePinyin": "jīn tiān de jīng jù biǎo yǎn fēi cháng jīng cǎi",
+    "exampleVietnamese": "Buổi Kinh kịch hôm nay rất hay."
+  },
+  {
+    "id": 278,
+    "word": "旧",
+    "pinyin": "jiù",
+    "vietnamese": "cũ",
+    "category": "形容词",
+    "example": "你这衣服也太旧了。",
+    "examplePinyin": "nǐ zhè yī fu yě tài jiù le",
+    "exampleVietnamese": "Quần áo bạn cũ quá."
+  },
+  {
+    "id": 279,
+    "word": "困",
+    "pinyin": "kùn",
+    "vietnamese": "buồn ngủ / mệt mỏi",
+    "category": "形容词",
+    "example": "昨晚没睡好，今天上课的时候特儿困。",
+    "examplePinyin": "zuó wǎn méi shuì hǎo jīn tiān shàng kè de shí hòu tè ér kùn",
+    "exampleVietnamese": "Tối qua ngủ không ngon, hôm nay buồn ngủ lắm."
+  },
+  {
+    "id": 280,
+    "word": "懒",
+    "pinyin": "lǎn",
+    "vietnamese": "lười",
+    "category": "形容词",
+    "example": "他是个懒学生，从来不预习课文。",
+    "examplePinyin": "tā shì gè lǎn xué shēng cóng lái bú yù xí kè wén",
+    "exampleVietnamese": "Anh ấy là học sinh lười, không bao giờ đọc trước bài."
+  },
+  {
+    "id": 281,
+    "word": "冷静",
+    "pinyin": "lěng jìng",
+    "vietnamese": "bình tĩnh",
+    "category": "形容词",
+    "example": "遇到突发事件时一定要冷静。",
+    "examplePinyin": "yù dào tū fā shì jiàn shí yí dìng yào lěng jìng",
+    "exampleVietnamese": "Gặp việc đột xuất phải bình tĩnh."
+  },
+  {
+    "id": 282,
+    "word": "流利",
+    "pinyin": "liú lì",
+    "vietnamese": "trôi chảy",
+    "category": "形容词",
+    "example": "他能说一口流利的汉语。",
+    "examplePinyin": "tā néng shuō yì kǒu liú lì de hàn yǔ",
+    "exampleVietnamese": "Anh ấy nói tiếng Hán rất trôi chảy."
+  },
+  {
+    "id": 283,
+    "word": "美丽",
+    "pinyin": "měi lì",
+    "vietnamese": "đẹp",
+    "category": "形容词",
+    "example": "这儿的景色非常美丽。",
+    "examplePinyin": "zhè ér de jǐng sè fēi cháng měi lì",
+    "exampleVietnamese": "Phong cảnh ở đây rất đẹp."
+  },
+  {
+    "id": 284,
+    "word": "轻松",
+    "pinyin": "qīng sōng",
+    "vietnamese": "nhẹ nhàng / thoải mái",
+    "category": "形容词",
+    "example": "预习课文的同学上课时会很轻松。",
+    "examplePinyin": "yù xí kè wén de tóng xué shàng kè shí huì hěn qīng sōng",
+    "exampleVietnamese": "Đọc trước bài thì trên lớp sẽ nhẹ nhàng hơn."
+  },
+  {
+    "id": 285,
+    "word": "热闹",
+    "pinyin": "rè nào",
+    "vietnamese": "náo nhiệt",
+    "category": "形容词",
+    "example": "过春节的时候，大街上非常热闹。",
+    "examplePinyin": "guò chūn jié de shí hòu dà jiē shàng fēi cháng rè nào",
+    "exampleVietnamese": "Tết đến phố phường rất náo nhiệt."
+  },
+  {
+    "id": 286,
+    "word": "软",
+    "pinyin": "ruǎn",
+    "vietnamese": "mềm",
+    "category": "形容词",
+    "example": "奶奶牙不好，只能吃软的东西。",
+    "examplePinyin": "nǎi nai yá bù hǎo zhǐ néng chī ruǎn de dōng xī",
+    "exampleVietnamese": "Bà răng yếu, chỉ ăn được đồ mềm."
+  },
+  {
+    "id": 287,
+    "word": "顺利",
+    "pinyin": "shùn lì",
+    "vietnamese": "thuận lợi",
+    "category": "形容词",
+    "example": "这次办签证非常顺利。",
+    "examplePinyin": "zhè cì bàn qiān zhèng fēi cháng shùn lì",
+    "exampleVietnamese": "Lần xin visa này rất thuận lợi."
+  },
+  {
+    "id": 288,
+    "word": "无聊",
+    "pinyin": "wú liáo",
+    "vietnamese": "nhàm chán",
+    "category": "形容词",
+    "example": "放假了，我一个人在家很无聊。",
+    "examplePinyin": "fàng jià le wǒ yí gè rén zài jiā hěn wú liáo",
+    "exampleVietnamese": "Nghỉ hè ở nhà một mình rất nhàm chán."
+  },
+  {
+    "id": 289,
+    "word": "详细",
+    "pinyin": "xiáng xì",
+    "vietnamese": "chi tiết",
+    "category": "形容词",
+    "example": "老师讲得很详细，同学们都懂了。",
+    "examplePinyin": "lǎo shī jiǎng dé hěn xiáng xì tóng xué men dōu dǒng le",
+    "exampleVietnamese": "Thầy giảng rất chi tiết, học sinh đều hiểu."
+  },
+  {
+    "id": 290,
+    "word": "严重",
+    "pinyin": "yán zhòng",
+    "vietnamese": "nghiêm trọng",
+    "category": "形容词",
+    "example": "他的病很严重。",
+    "examplePinyin": "tā de bìng hěn yán zhòng",
+    "exampleVietnamese": "Bệnh của anh ấy rất nghiêm trọng."
+  },
+  {
+    "id": 291,
+    "word": "勇敢",
+    "pinyin": "yǒng gǎn",
+    "vietnamese": "dũng cảm",
+    "category": "形容词",
+    "example": "他很勇敢，把坏人吓跑了。",
+    "examplePinyin": "tā hěn yǒng gǎn bǎ huài rén xià pǎo le",
+    "exampleVietnamese": "Anh ấy rất dũng cảm, dọa tên xấu chạy mất."
+  },
+  {
+    "id": 292,
+    "word": "脏",
+    "pinyin": "zāng",
+    "vietnamese": "bẩn",
+    "category": "形容词",
+    "example": "快把房间收拾收拾，太脏了。",
+    "examplePinyin": "kuài bǎ fáng jiān shōu shí shōu shí tài zāng le",
+    "exampleVietnamese": "Mau dọn phòng, bẩn quá."
+  },
+  {
+    "id": 293,
+    "word": "窄",
+    "pinyin": "zhǎi",
+    "vietnamese": "hẹp / chật",
+    "category": "形容词",
+    "example": "这条路太窄了。",
+    "examplePinyin": "zhè tiáo lù tài zhǎi le",
+    "exampleVietnamese": "Con đường này quá hẹp."
+  },
+  {
+    "id": 294,
+    "word": "整齐",
+    "pinyin": "zhěng qí",
+    "vietnamese": "ngăn nắp / gọn gàng",
+    "category": "形容词",
+    "example": "她喜欢收拾屋子，家里非常整齐。",
+    "examplePinyin": "tā xǐ huan shōu shí wū zi jiā lǐ fēi cháng zhěng qí",
+    "exampleVietnamese": "Cô ấy thích dọn nhà, nhà rất gọn gàng."
+  },
+  {
+    "id": 295,
+    "word": "正常",
+    "pinyin": "zhèng cháng",
+    "vietnamese": "bình thường",
+    "category": "形容词",
+    "example": "最近一切都很正常。",
+    "examplePinyin": "zuì jìn yí qiè dōu hěn zhèng cháng",
+    "exampleVietnamese": "Gần đây mọi thứ đều bình thường."
+  },
+  {
+    "id": 296,
+    "word": "正确",
+    "pinyin": "zhèng què",
+    "vietnamese": "đúng",
+    "category": "形容词",
+    "example": "他的回答是正确的。",
+    "examplePinyin": "tā de huí dá shì zhèng què de",
+    "exampleVietnamese": "Câu trả lời của anh ấy đúng."
+  },
+  {
+    "id": 297,
+    "word": "著名",
+    "pinyin": "zhù míng",
+    "vietnamese": "nổi tiếng",
+    "category": "形容词",
+    "example": "北京大学是中国最著名的大学。",
+    "examplePinyin": "běi jīng dà xué shì zhōng guó zuì zhù míng de dà xué",
+    "exampleVietnamese": "Đại học Bắc Kinh là trường nổi tiếng nhất Trung Quốc."
+  },
+  {
+    "id": 298,
+    "word": "准确",
+    "pinyin": "zhǔn què",
+    "vietnamese": "chính xác",
+    "category": "形容词",
+    "example": "他的发音非常准确。",
+    "examplePinyin": "tā de fā yīn fēi cháng zhǔn què",
+    "exampleVietnamese": "Phát âm của anh ấy rất chính xác."
+  },
+  {
+    "id": 299,
+    "word": "仔细",
+    "pinyin": "zǐ xì",
+    "vietnamese": "cẩn thận / kỹ lưỡng",
+    "category": "形容词",
+    "example": "他做事情非常仔细。",
+    "examplePinyin": "tā zuò shì qíng fēi cháng zǐ xì",
+    "exampleVietnamese": "Anh ấy làm việc rất cẩn thận."
+  },
+  {
+    "id": 300,
+    "word": "安全",
+    "pinyin": "ān quán",
+    "vietnamese": "an toàn",
+    "category": "形容词",
+    "example": "出去旅游带很多钱不安全。",
+    "examplePinyin": "chū qù lǚ yóu dài hěn duō qián bù ān quán",
+    "exampleVietnamese": "Đi du lịch mang nhiều tiền mặt không an toàn."
+  },
+  {
+    "id": 301,
+    "word": "成功",
+    "pinyin": "chéng gōng",
+    "vietnamese": "thành công",
+    "category": "形容词",
+    "example": "北京奥运会非常成功。",
+    "examplePinyin": "běi jīng ào yùn huì fēi cháng chéng gōng",
+    "exampleVietnamese": "Olympic Bắc Kinh rất thành công."
+  },
+  {
+    "id": 302,
+    "word": "干燥",
+    "pinyin": "gān zào",
+    "vietnamese": "khô",
+    "category": "形容词",
+    "example": "北京的冬天非常干燥。",
+    "examplePinyin": "běi jīng de dōng tiān fēi cháng gān zào",
+    "exampleVietnamese": "Mùa đông Bắc Kinh rất khô."
+  },
+  {
+    "id": 303,
+    "word": "孤单",
+    "pinyin": "gū dān",
+    "vietnamese": "cô đơn",
+    "category": "形容词",
+    "example": "他一个人来北京留学，非常孤单。",
+    "examplePinyin": "tā yí gè rén lái běi jīng liú xué fēi cháng gū dān",
+    "exampleVietnamese": "Một mình du học Bắc Kinh, rất cô đơn."
+  },
+  {
+    "id": 304,
+    "word": "骄傲",
+    "pinyin": "jiāo ào",
+    "vietnamese": "kiêu ngạo / tự hào",
+    "category": "形容词",
+    "example": "他考了100分之后就变骄傲了。",
+    "examplePinyin": "tā kǎo le fēn zhī hòu jiù biàn jiāo ào le",
+    "exampleVietnamese": "Thi được 100 điểm xong anh ấy trở nên kiêu ngạo."
+  },
+  {
+    "id": 305,
+    "word": "苦",
+    "pinyin": "kǔ",
+    "vietnamese": "đắng / khổ",
+    "category": "形容词",
+    "example": "我不喜欢吃中药，太苦了。",
+    "examplePinyin": "wǒ bù xǐ huan chī zhōng yào tài kǔ le",
+    "exampleVietnamese": "Tôi không thích uống thuốc Đông y, quá đắng."
+  },
+  {
+    "id": 306,
+    "word": "辣",
+    "pinyin": "là",
+    "vietnamese": "cay",
+    "category": "形容词",
+    "example": "四川菜比较辣。",
+    "examplePinyin": "sì chuān cài bǐ jiào là",
+    "exampleVietnamese": "Món Tứ Xuyên khá cay."
+  },
+  {
+    "id": 307,
+    "word": "浪漫",
+    "pinyin": "làng màn",
+    "vietnamese": "lãng mạn",
+    "category": "形容词",
+    "example": "他经常送花给女朋友，非常浪漫。",
+    "examplePinyin": "tā jīng cháng sòng huā gěi nǚ péng yǒu fēi cháng làng màn",
+    "exampleVietnamese": "Anh ấy thường tặng hoa bạn gái, rất lãng mạn."
+  },
+  {
+    "id": 308,
+    "word": "马虎",
+    "pinyin": "mǎ hǔ",
+    "vietnamese": "cẩu thả",
+    "category": "形容词",
+    "example": "他太马虎了，考试忘了写名字。",
+    "examplePinyin": "tā tài mǎ hǔ le kǎo shì wàng le xiě míng zì",
+    "exampleVietnamese": "Anh ấy cẩu thả quá, thi quên viết tên."
+  },
+  {
+    "id": 309,
+    "word": "粗心",
+    "pinyin": "cū xīn",
+    "vietnamese": "bất cẩn",
+    "category": "形容词",
+    "example": "你真是粗心，都忘记把钥匙放哪儿了。",
+    "examplePinyin": "nǐ zhēn shì cū xīn dōu wàng jì bǎ yào shi fàng nǎ ér le",
+    "exampleVietnamese": "Bạn thật bất cẩn, quên mất chìa khóa."
+  },
+  {
+    "id": 310,
+    "word": "耐心",
+    "pinyin": "nài xīn",
+    "vietnamese": "kiên nhẫn",
+    "category": "形容词",
+    "example": "我的老师很耐心。",
+    "examplePinyin": "wǒ de lǎo shī hěn nài xīn",
+    "exampleVietnamese": "Thầy tôi rất kiên nhẫn."
+  },
+  {
+    "id": 311,
+    "word": "危险",
+    "pinyin": "wēi xiǎn",
+    "vietnamese": "nguy hiểm",
+    "category": "形容词",
+    "example": "酒后开车，很危险。",
+    "examplePinyin": "jiǔ hòu kāi chē hěn wēi xiǎn",
+    "exampleVietnamese": "Lái xe sau khi uống rượu rất nguy hiểm."
+  },
+  {
+    "id": 312,
+    "word": "幽默",
+    "pinyin": "yōu mò",
+    "vietnamese": "hài hước",
+    "category": "形容词",
+    "example": "李红真幽默，每次都能带给大家快乐。",
+    "examplePinyin": "lǐ hóng zhēn yōu mò měi cì dōu néng dài gěi dà jiā kuài lè",
+    "exampleVietnamese": "Lý Hồng thật hài hước, luôn mang lại niềm vui."
+  },
+  {
+    "id": 313,
+    "word": "按时",
+    "pinyin": "àn shí",
+    "vietnamese": "đúng giờ",
+    "category": "副词",
+    "example": "他每天按时上班，从来不迟到。",
+    "examplePinyin": "tā měi tiān àn shí shàng bān cóng lái bù chí dào",
+    "exampleVietnamese": "Anh ấy đi làm đúng giờ, không bao giờ muộn."
+  },
+  {
+    "id": 314,
+    "word": "从来",
+    "pinyin": "cóng lái",
+    "vietnamese": "từ trước đến nay / luôn luôn (phủ định)",
+    "category": "副词",
+    "example": "他从来不做运动。",
+    "examplePinyin": "tā cóng lái bú zuò yùn dòng",
+    "exampleVietnamese": "Anh ấy chưa bao giờ tập thể dục."
+  },
+  {
+    "id": 315,
+    "word": "本来",
+    "pinyin": "běn lái",
+    "vietnamese": "vốn dĩ / ban đầu",
+    "category": "副词",
+    "example": "我本来挺白的，后来晒黑了。",
+    "examplePinyin": "wǒ běn lái tǐng bái de hòu lái shài hēi le",
+    "exampleVietnamese": "Vốn tôi trắng, sau bị nắng đen."
+  },
+  {
+    "id": 316,
+    "word": "重新",
+    "pinyin": "chóng xīn",
+    "vietnamese": "lại / làm lại",
+    "category": "副词",
+    "example": "上次作业老师不满意，让我重新写一遍。",
+    "examplePinyin": "shàng cì zuò yè lǎo shī bù mǎn yì ràng wǒ chóng xīn xiě yí biàn",
+    "exampleVietnamese": "Bài cũ thầy không hài lòng, bắt viết lại."
+  },
+  {
+    "id": 317,
+    "word": "大概",
+    "pinyin": "dà gài",
+    "vietnamese": "khoảng / có lẽ",
+    "category": "副词",
+    "example": "屋子里大概有四五十人。",
+    "examplePinyin": "wū zi lǐ dà gài yǒu sì wǔ shí rén",
+    "exampleVietnamese": "Trong phòng khoảng bốn mươi đến năm mươi người."
+  },
+  {
+    "id": 318,
+    "word": "到处",
+    "pinyin": "dào chù",
+    "vietnamese": "khắp nơi",
+    "category": "副词",
+    "example": "街上到处都是人。",
+    "examplePinyin": "jiē shàng dào chù dōu shì rén",
+    "exampleVietnamese": "Trên phố khắp nơi đều có người."
+  },
+  {
+    "id": 319,
+    "word": "刚刚",
+    "pinyin": "gāng gāng",
+    "vietnamese": "vừa mới",
+    "category": "副词",
+    "example": "王经理刚刚出差回来。",
+    "examplePinyin": "wáng jīng lǐ gāng gāng chū chāi huí lái",
+    "exampleVietnamese": "Quản lý Vương vừa đi công tác về."
+  },
+  {
+    "id": 320,
+    "word": "共同",
+    "pinyin": "gòng tóng",
+    "vietnamese": "cùng nhau / chung",
+    "category": "副词",
+    "example": "这个项目将由两所大学共同申请。",
+    "examplePinyin": "zhè ge xiàng mù jiāng yóu liǎng suǒ dà xué gòng tóng shēn qǐng",
+    "exampleVietnamese": "Dự án này hai trường đại học cùng đăng ký."
+  },
+  {
+    "id": 321,
+    "word": "故意",
+    "pinyin": "gù yì",
+    "vietnamese": "cố ý",
+    "category": "副词",
+    "example": "我故意不理她，就是想气气她。",
+    "examplePinyin": "wǒ gù yì bù lǐ tā jiù shì xiǎng qì qì tā",
+    "exampleVietnamese": "Tôi cố ý không để ý cô ấy, muốn chọc cô ấy."
+  },
+  {
+    "id": 322,
+    "word": "果然",
+    "pinyin": "guǒ rán",
+    "vietnamese": "quả nhiên / đúng như dự đoán",
+    "category": "副词",
+    "example": "今天上午天就不好，下午果然下起雨来。",
+    "examplePinyin": "jīn tiān shàng wǔ tiān jiù bù hǎo xià wǔ guǒ rán xià qǐ yǔ lái",
+    "exampleVietnamese": "Sáng trời không tốt, chiều quả nhiên mưa."
+  },
+  {
+    "id": 323,
+    "word": "互相",
+    "pinyin": "hù xiāng",
+    "vietnamese": "lẫn nhau",
+    "category": "副词",
+    "example": "同学之间应该互相帮助。",
+    "examplePinyin": "tóng xué zhī jiān yīng gāi hù xiāng bāng zhù",
+    "exampleVietnamese": "Bạn bè nên giúp đỡ lẫn nhau."
+  },
+  {
+    "id": 324,
+    "word": "极其",
+    "pinyin": "jí qí",
+    "vietnamese": "cực kỳ",
+    "category": "副词",
+    "example": "这个老师的要求极其严格。",
+    "examplePinyin": "zhè ge lǎo shī de yāo qiú jí qí yán gé",
+    "exampleVietnamese": "Yêu cầu của thầy này cực kỳ nghiêm khắc."
+  },
+  {
+    "id": 325,
+    "word": "竟然",
+    "pinyin": "jìng rán",
+    "vietnamese": "lại / không ngờ",
+    "category": "副词",
+    "example": "这次考试竟然会这么简单。",
+    "examplePinyin": "zhè cì kǎo shì jìng rán huì zhè me jiǎn dān",
+    "exampleVietnamese": "Kỳ thi này không ngờ lại dễ thế."
+  },
+  {
+    "id": 326,
+    "word": "究竟",
+    "pinyin": "jiū jìng",
+    "vietnamese": "rốt cuộc / đến cùng",
+    "category": "副词",
+    "example": "你说了半天也没说清楚，究竟出了什么事？",
+    "examplePinyin": "nǐ shuō le bàn tiān yě méi shuō qīng chǔ jiū jìng chū le shén me shì",
+    "exampleVietnamese": "Nói nửa ngày cũng không rõ, rốt cuộc chuyện gì?"
+  },
+  {
+    "id": 327,
+    "word": "恐怕",
+    "pinyin": "kǒng pà",
+    "vietnamese": "e rằng / có lẽ",
+    "category": "副词",
+    "example": "他这么长时间还没出来，恐怕是真出事了。",
+    "examplePinyin": "tā zhè me cháng shí jiān hái méi chū lái kǒng pà shì zhēn chū shì le",
+    "exampleVietnamese": "Lâu thế chưa ra, e rằng có chuyện thật."
+  },
+  {
+    "id": 328,
+    "word": "也许",
+    "pinyin": "yě xǔ",
+    "vietnamese": "có lẽ",
+    "category": "副词",
+    "example": "他今天没来上课，也许是生病了。",
+    "examplePinyin": "tā jīn tiān méi lái shàng kè yě xǔ shì shēng bìng le",
+    "exampleVietnamese": "Hôm nay không đến lớp, có lẽ bị ốm."
+  },
+  {
+    "id": 329,
+    "word": "难道",
+    "pinyin": "nán dào",
+    "vietnamese": "chẳng lẽ / lẽ nào",
+    "category": "副词",
+    "example": "这么简单的道理，你难道还不明白？",
+    "examplePinyin": "zhè me jiǎn dān de dào lǐ nǐ nán dào hái bù míng bái",
+    "exampleVietnamese": "Đạo lý đơn giản thế, lẽ nào bạn chưa hiểu?"
+  },
+  {
+    "id": 330,
+    "word": "偶尔",
+    "pinyin": "ǒu ěr",
+    "vietnamese": "thỉnh thoảng",
+    "category": "副词",
+    "example": "他经常踢足球，偶尔也打打乒乓球。",
+    "examplePinyin": "tā jīng cháng tī zú qiú ǒu ěr yě dǎ dǎ pīng pāng qiú",
+    "exampleVietnamese": "Anh ấy hay đá bóng, thỉnh thoảng chơi bóng bàn."
+  },
+  {
+    "id": 331,
+    "word": "仍然",
+    "pinyin": "réng rán",
+    "vietnamese": "vẫn",
+    "category": "副词",
+    "example": "这么多年过去了，他仍然是那么受欢迎。",
+    "examplePinyin": "zhè me duō nián guò qù le tā réng rán shì nà me shòu huān yíng",
+    "exampleVietnamese": "Nhiều năm trôi qua, anh ấy vẫn được yêu mến."
+  },
+  {
+    "id": 332,
+    "word": "实在",
+    "pinyin": "shí zài",
+    "vietnamese": "thật sự / quả thực",
+    "category": "副词",
+    "example": "十几年没联系了，我实在想不起来他的名字。",
+    "examplePinyin": "shí jǐ nián méi lián xì le wǒ shí zài xiǎng bù qǐ lái tā de míng zì",
+    "exampleVietnamese": "Mười mấy năm không liên lạc, tôi thật không nhớ tên."
+  },
+  {
+    "id": 333,
+    "word": "顺便",
+    "pinyin": "shùn biàn",
+    "vietnamese": "tiện thể",
+    "category": "副词",
+    "example": "你这次出国顺便给我买个电脑。",
+    "examplePinyin": "nǐ zhè cì chū guó shùn biàn gěi wǒ mǎi gè diàn nǎo",
+    "exampleVietnamese": "Lần đi nước ngoài này tiện mua giúp tôi máy tính."
+  },
+  {
+    "id": 334,
+    "word": "往往",
+    "pinyin": "wǎng wǎng",
+    "vietnamese": "thường / hay",
+    "category": "副词",
+    "example": "聪明人往往会犯一些简单的错误。",
+    "examplePinyin": "cōng ming rén wǎng wǎng huì fàn yì xiē jiǎn dān de cuò wù",
+    "exampleVietnamese": "Người thông minh hay mắc lỗi đơn giản."
+  },
+  {
+    "id": 335,
+    "word": "永远",
+    "pinyin": "yǒng yuǎn",
+    "vietnamese": "mãi mãi",
+    "category": "副词",
+    "example": "光说不做的人永远都不会成功。",
+    "examplePinyin": "guāng shuō bú zuò de rén yǒng yuǎn dōu bú huì chéng gōng",
+    "exampleVietnamese": "Chỉ nói không làm sẽ không bao giờ thành công."
+  },
+  {
+    "id": 336,
+    "word": "尤其",
+    "pinyin": "yóu qí",
+    "vietnamese": "đặc biệt là",
+    "category": "副词",
+    "example": "她的成绩非常好，尤其是写作课。",
+    "examplePinyin": "tā de chéng jì fēi cháng hǎo yóu qí shì xiě zuò kè",
+    "exampleVietnamese": "Thành tích cô ấy rất tốt, đặc biệt môn viết."
+  },
+  {
+    "id": 337,
+    "word": "原来",
+    "pinyin": "yuán lái",
+    "vietnamese": "vốn / hóa ra",
+    "category": "副词",
+    "example": "原来你是生病休学了，我还以为你不上了呢。",
+    "examplePinyin": "yuán lái nǐ shì shēng bìng xiū xué le wǒ hái yǐ wéi nǐ bú shàng le ne",
+    "exampleVietnamese": "Hóa ra bạn nghỉ học vì ốm, tôi tưởng bạn bỏ học."
+  },
+  {
+    "id": 338,
+    "word": "暂时",
+    "pinyin": "zàn shí",
+    "vietnamese": "tạm thời",
+    "category": "副词",
+    "example": "他有点儿累，暂时不想看书了。",
+    "examplePinyin": "tā yǒu diǎn er lèi zàn shí bù xiǎng kàn shū le",
+    "exampleVietnamese": "Anh ấy hơi mệt, tạm thời không muốn đọc sách."
+  },
+  {
+    "id": 339,
+    "word": "只好",
+    "pinyin": "zhǐ hǎo",
+    "vietnamese": "đành phải / chỉ còn cách",
+    "category": "副词",
+    "example": "很多考试没通过，他只好退学了。",
+    "examplePinyin": "hěn duō kǎo shì méi tōng guò tā zhǐ hǎo tuì xué le",
+    "exampleVietnamese": "Thi không đậu nhiều, anh ấy đành bỏ học."
+  },
+  {
+    "id": 340,
+    "word": "至少",
+    "pinyin": "zhì shǎo",
+    "vietnamese": "ít nhất",
+    "category": "副词",
+    "example": "要想去中国留学，四级至少要考到180分。",
+    "examplePinyin": "yào xiǎng qù zhōng guó liú xué sì jí zhì shǎo yào kǎo dào fēn",
+    "exampleVietnamese": "Muốn du học Trung Quốc, CET-4 ít nhất 180 điểm."
+  },
+  {
+    "id": 341,
+    "word": "逐渐",
+    "pinyin": "zhú jiàn",
+    "vietnamese": "dần dần",
+    "category": "副词",
+    "example": "经过几个月的学习，他的听力水平逐渐有了提高。",
+    "examplePinyin": "jīng guò jǐ gè yuè de xué xí tā de tīng lì shuǐ píng zhú jiàn yǒu le tí gāo",
+    "exampleVietnamese": "Sau vài tháng học, khả năng nghe dần cải thiện."
+  },
+  {
+    "id": 342,
+    "word": "专门",
+    "pinyin": "zhuān mén",
+    "vietnamese": "chuyên / đặc biệt",
+    "category": "副词",
+    "example": "留学生办公室是专门为留学生服务的。",
+    "examplePinyin": "liú xué shēng bàn gōng shì shì zhuān mén wèi liú xué shēng fú wù de",
+    "exampleVietnamese": "Văn phòng du học sinh chuyên phục vụ du học sinh."
+  },
+  {
+    "id": 343,
+    "word": "最好",
+    "pinyin": "zuì hǎo",
+    "vietnamese": "tốt nhất là",
+    "category": "副词",
+    "example": "明天最好别刮大风，我们好骑车去玩儿。",
+    "examplePinyin": "míng tiān zuì hǎo bié guā dà fēng wǒ men hǎo qí chē qù wán ér",
+    "exampleVietnamese": "Mai tốt nhất đừng gió to, chúng ta đi xe đạp chơi."
+  },
+  {
+    "id": 344,
+    "word": "好像",
+    "pinyin": "hǎo xiàng",
+    "vietnamese": "hình như / dường như",
+    "category": "副词",
+    "example": "他妈妈好像是老师，我记不太清了。",
+    "examplePinyin": "tā mā ma hǎo xiàng shì lǎo shī wǒ jì bú tài qīng le",
+    "exampleVietnamese": "Hình như mẹ anh ấy là giáo viên, tôi không nhớ rõ."
+  },
+  {
+    "id": 345,
+    "word": "无论",
+    "pinyin": "wú lùn",
+    "vietnamese": "bất kể / dù",
+    "category": "连词",
+    "example": "无论遇到什么困难，我都不会放弃。",
+    "examplePinyin": "wú lùn yù dào shén me kùn nán wǒ dōu bú huì fàng qì",
+    "exampleVietnamese": "Dù gặp khó khăn gì, tôi cũng không từ bỏ."
+  },
+  {
+    "id": 346,
+    "word": "尽管",
+    "pinyin": "jǐn guǎn",
+    "vietnamese": "mặc dù",
+    "category": "连词",
+    "example": "尽管这个公司不大，却非常赚钱。",
+    "examplePinyin": "jǐn guǎn zhè ge gōng sī bú dà què fēi cháng zhuàn qián",
+    "exampleVietnamese": "Mặc dù công ty nhỏ nhưng rất kiếm tiền."
+  },
+  {
+    "id": 347,
+    "word": "否则",
+    "pinyin": "fǒu zé",
+    "vietnamese": "nếu không thì / bằng không",
+    "category": "连词",
+    "example": "你必须办好护照和签证，否则出不了国。",
+    "examplePinyin": "nǐ bì xū bàn hǎo hù zhào hé qiān zhèng fǒu zé chū bù liǎo guó",
+    "exampleVietnamese": "Phải làm xong hộ chiếu và visa, nếu không không ra nước ngoài được."
+  },
+  {
+    "id": 348,
+    "word": "另外",
+    "pinyin": "lìng wài",
+    "vietnamese": "ngoài ra / hơn nữa",
+    "category": "连词",
+    "example": "多带点儿钱在身上，另外把信用卡也带上。",
+    "examplePinyin": "duō dài diǎn ér qián zài shēn shàng lìng wài bǎ xìn yòng kǎ yě dài shàng",
+    "exampleVietnamese": "Mang thêm tiền mặt, ngoài ra mang cả thẻ tín dụng."
+  },
+  {
+    "id": 349,
+    "word": "其次",
+    "pinyin": "qí cì",
+    "vietnamese": "thứ hai / tiếp theo",
+    "category": "连词",
+    "example": "中国最受欢迎的篮球明星是姚明，其次才是易建联。",
+    "examplePinyin": "zhōng guó zuì shòu huān yíng de lán qiú míng xīng shì yáo míng qí cì cái shì yì jiàn lián",
+    "exampleVietnamese": "Ngôi sao bóng rổ được yêu thích nhất là Yao Ming, tiếp theo là Yi Jianlian."
+  },
+  {
+    "id": 350,
+    "word": "然而",
+    "pinyin": "rán ér",
+    "vietnamese": "tuy nhiên",
+    "category": "连词",
+    "example": "他很富有，然而并不快乐。",
+    "examplePinyin": "tā hěn fù yǒu rán ér bìng bú kuài lè",
+    "exampleVietnamese": "Anh ấy rất giàu, tuy nhiên không vui."
+  },
+  {
+    "id": 351,
+    "word": "不过",
+    "pinyin": "bú guò",
+    "vietnamese": "nhưng / tuy nhiên",
+    "category": "连词",
+    "example": "这个菜味道不错，不过稍微咸了点儿。",
+    "examplePinyin": "zhè ge cài wèi dào bú cuò bú guò shāo wēi xián le diǎn ér",
+    "exampleVietnamese": "Món này vị không tệ, nhưng hơi mặn."
+  },
+  {
+    "id": 352,
+    "word": "即使",
+    "pinyin": "jí shǐ",
+    "vietnamese": "ngay cả khi / dù",
+    "category": "连词",
+    "example": "即使明天下雨，我也要去踢球。",
+    "examplePinyin": "jí shǐ míng tiān xià yǔ wǒ yě yào qù tī qiú",
+    "exampleVietnamese": "Dù mai trời mưa, tôi vẫn đi đá bóng."
+  },
+  {
+    "id": 353,
+    "word": "既然",
+    "pinyin": "jì rán",
+    "vietnamese": "đã... thì",
+    "category": "连词",
+    "example": "既然你不想去，就别去了。",
+    "examplePinyin": "jì rán nǐ bù xiǎng qù jiù bié qù le",
+    "exampleVietnamese": "Đã không muốn đi thì đừng đi."
+  }
+]
