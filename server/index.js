@@ -1,105 +1,117 @@
-import express from 'express';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import 'dotenv/config'
+import express from 'express'
+import cors from 'cors'
 
-dotenv.config({ path: join(dirname(fileURLToPath(import.meta.url)), '../.env') });
+const app = express()
+const PORT = process.env.PORT || 3001
 
-const app = express();
-const PORT = process.env.PORT || 3001;
+app.use(cors())
+app.use(express.json())
 
-app.use(cors());
-app.use(express.json());
-
-async function evaluateSentence({ word, pinyin, vietnamese, userSentence }) {
-  const apiKey = process.env.OPENAI_API_KEY || process.env.CURSOR_API_KEY;
-  const baseUrl = process.env.AI_API_BASE_URL || 'https://api.openai.com/v1';
-
+async function checkWithOpenAI(word, sentence, example) {
+  const apiKey = process.env.OPENAI_API_KEY || process.env.CURSOR_API_KEY
   if (!apiKey) {
-    return {
-      correct: null,
-      feedback:
-        'Chưa cấu hình API key. Vui lòng thêm OPENAI_API_KEY hoặc CURSOR_API_KEY vào file .env và khởi động lại server.',
-      suggestions: 'Tạo file .env trong thư mục gốc dự án với nội dung: OPENAI_API_KEY=sk-...',
-    };
+    throw new Error('Chưa cấu hình OPENAI_API_KEY hoặc CURSOR_API_KEY trong file .env')
   }
 
-  const systemPrompt = `Bạn là giáo viên tiếng Trung chuyên đánh giá câu ví dụ của học viên Việt Nam.
-Nhiệm vụ: kiểm tra câu tiếng Trung do học viên viết có đúng ngữ pháp, tự nhiên và sử dụng đúng từ mục tiêu không.
-Luôn trả lời bằng tiếng Việt.
-Trả về JSON hợp lệ với format:
-{"correct": boolean, "feedback": "nhận xét chi tiết", "suggestions": "gợi ý cải thiện hoặc câu mẫu tốt hơn"}`;
+  const baseUrl = process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1'
+  const model = process.env.OPENAI_MODEL || 'gpt-4o-mini'
 
-  const userPrompt = `Từ mục tiêu: ${word} (${pinyin}) - nghĩa: ${vietnamese}
-Câu học viên viết: ${userSentence}
+  const prompt = `Bạn là giáo viên tiếng Trung. Học viên viết câu ví dụ dùng từ "${word}".
+Câu mẫu tham khảo: ${example}
+Câu học viên viết: ${sentence}
 
-Hãy đánh giá câu trên.`;
+Đánh giá câu của học viên. Trả lời JSON với format:
+{"correct": true/false, "feedback": "nhận xét bằng tiếng Việt", "suggestions": "gợi ý cải thiện bằng tiếng Việt hoặc chuỗi rỗng"}
+Chỉ trả JSON, không markdown.`
 
-  try {
-    const response = await fetch(`${baseUrl}/chat/completions`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: process.env.AI_MODEL || 'gpt-4o-mini',
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: userPrompt },
-        ],
-        temperature: 0.3,
-        response_format: { type: 'json_object' },
-      }),
-    });
+  const response = await fetch(`${baseUrl}/chat/completions`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      model,
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.3,
+    }),
+  })
 
-    if (!response.ok) {
-      const errText = await response.text();
-      throw new Error(`API error ${response.status}: ${errText}`);
+  if (!response.ok) {
+    const err = await response.text()
+    throw new Error(`API error: ${response.status} ${err}`)
+  }
+
+  const data = await response.json()
+  const content = data.choices?.[0]?.message?.content || '{}'
+  const jsonMatch = content.match(/\{[\s\S]*\}/)
+  return JSON.parse(jsonMatch ? jsonMatch[0] : content)
+}
+
+function basicCheck(word, sentence, example) {
+  const hasWord = sentence.includes(word)
+  const hasChinese = /[\u4e00-\u9fff]/.test(sentence)
+  const endsProperly = /[。！？.!?]$/.test(sentence.trim())
+
+  if (!hasChinese) {
+    return {
+      correct: false,
+      feedback: 'Câu cần viết bằng tiếng Trung.',
+      suggestions: `Hãy viết một câu tiếng Trung có chứa từ "${word}". Ví dụ: ${example}`,
     }
-
-    const data = await response.json();
-    const content = data.choices?.[0]?.message?.content;
-    const parsed = JSON.parse(content);
+  }
+  if (!hasWord) {
     return {
-      correct: Boolean(parsed.correct),
-      feedback: parsed.feedback || 'Không có phản hồi.',
-      suggestions: parsed.suggestions || '',
-    };
-  } catch (error) {
-    console.error('AI evaluation error:', error.message);
+      correct: false,
+      feedback: `Câu chưa sử dụng từ "${word}".`,
+      suggestions: `Hãy đưa từ "${word}" vào câu. Ví dụ: ${example}`,
+    }
+  }
+  if (!endsProperly) {
     return {
-      correct: null,
-      feedback: `Lỗi khi gọi API: ${error.message}`,
-      suggestions:
-        'Kiểm tra API key trong file .env. Hỗ trợ OPENAI_API_KEY hoặc CURSOR_API_KEY với endpoint OpenAI-compatible.',
-    };
+      correct: false,
+      feedback: 'Câu nên kết thúc bằng dấu câu (。！？).',
+      suggestions: example,
+    }
+  }
+  return {
+    correct: true,
+    feedback: 'Câu của bạn đúng cấu trúc cơ bản và có sử dụng từ vựng. (Chế độ offline — chưa có API key)',
+    suggestions: '',
   }
 }
 
-app.get('/api/health', (_req, res) => {
-  res.json({
-    ok: true,
-    hasApiKey: Boolean(process.env.OPENAI_API_KEY || process.env.CURSOR_API_KEY),
-  });
-});
+app.post('/api/check-sentence', async (req, res) => {
+  try {
+    const { word, sentence, example } = req.body
+    if (!word || !sentence) {
+      return res.status(400).json({ error: 'Thiếu từ hoặc câu' })
+    }
 
-app.post('/api/evaluate', async (req, res) => {
-  const { word, pinyin, vietnamese, userSentence } = req.body;
+    const apiKey = process.env.OPENAI_API_KEY || process.env.CURSOR_API_KEY
+    let result
+    if (apiKey) {
+      result = await checkWithOpenAI(word, sentence, example || '')
+    } else {
+      result = basicCheck(word, sentence, example || '')
+    }
 
-  if (!word || !userSentence?.trim()) {
-    return res.status(400).json({
-      correct: false,
-      feedback: 'Vui lòng nhập câu tiếng Trung có chứa từ mục tiêu.',
-      suggestions: '',
-    });
+    res.json({
+      correct: Boolean(result.correct),
+      feedback: result.feedback || '',
+      suggestions: result.suggestions || '',
+    })
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ error: err.message })
   }
+})
 
-  const result = await evaluateSentence({ word, pinyin, vietnamese, userSentence: userSentence.trim() });
-  res.json(result);
-});
+app.get('/api/health', (_req, res) => {
+  res.json({ ok: true })
+})
 
 app.listen(PORT, () => {
-  console.log(`API server running at http://localhost:${PORT}`);
-});
+  console.log(`API server running on http://localhost:${PORT}`)
+})
