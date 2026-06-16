@@ -1,6 +1,6 @@
-import { useState, useMemo, useCallback } from 'react'
-import CategoryFilter from './CategoryFilter'
+import { useState, useCallback } from 'react'
 import ProgressBar from './ProgressBar'
+import SectionBanner from './SectionBanner'
 
 function shuffleArray(arr) {
   const a = [...arr]
@@ -11,8 +11,7 @@ function shuffleArray(arr) {
   return a
 }
 
-export default function TestMode({ vocabulary }) {
-  const [category, setCategory] = useState('Tất cả')
+export default function TestMode({ vocabulary, sectionId }) {
   const [started, setStarted] = useState(false)
   const [questions, setQuestions] = useState([])
   const [qIndex, setQIndex] = useState(0)
@@ -21,15 +20,10 @@ export default function TestMode({ vocabulary }) {
   const [finished, setFinished] = useState(false)
   const [answers, setAnswers] = useState([])
 
-  const pool = useMemo(() => {
-    if (category === 'Tất cả') return vocabulary
-    return vocabulary.filter((w) => w.category === category)
-  }, [vocabulary, category])
-
   const startTest = useCallback(() => {
-    const count = Math.min(10, pool.length)
-    const qs = shuffleArray(pool).slice(0, count).map((word) => {
-      const others = shuffleArray(pool.filter((w) => w.id !== word.id)).slice(0, 3)
+    const count = Math.min(10, vocabulary.length)
+    const qs = shuffleArray(vocabulary).slice(0, count).map((word) => {
+      const others = shuffleArray(vocabulary.filter((w) => w.id !== word.id)).slice(0, 3)
       const options = shuffleArray([word, ...others])
       return { word, options }
     })
@@ -40,7 +34,7 @@ export default function TestMode({ vocabulary }) {
     setFinished(false)
     setAnswers([])
     setStarted(true)
-  }, [pool])
+  }, [vocabulary])
 
   const current = questions[qIndex]
 
@@ -61,15 +55,15 @@ export default function TestMode({ vocabulary }) {
   if (!started) {
     return (
       <div className="mode-panel">
-        <CategoryFilter selected={category} onChange={setCategory} />
+        <SectionBanner sectionId={sectionId} wordCount={vocabulary.length} />
         <div className="test-intro">
           <h2>Kiểm tra từ vựng</h2>
           <p>Chọn nghĩa tiếng Việt đúng cho từ tiếng Trung. Mỗi lần kiểm tra có tối đa 10 câu.</p>
-          <p className="pool-info">Sẵn có: <strong>{pool.length}</strong> từ</p>
-          <button type="button" className="btn btn-primary btn-lg" onClick={startTest} disabled={pool.length < 4}>
+          <p className="pool-info">Sẵn có: <strong>{vocabulary.length}</strong> từ trong phần này</p>
+          <button type="button" className="btn btn-primary btn-lg" onClick={startTest} disabled={vocabulary.length < 4}>
             Bắt đầu kiểm tra
           </button>
-          {pool.length < 4 && <p className="error-msg">Cần ít nhất 4 từ để kiểm tra.</p>}
+          {vocabulary.length < 4 && <p className="error-msg">Cần ít nhất 4 từ để kiểm tra.</p>}
         </div>
       </div>
     )

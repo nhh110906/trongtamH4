@@ -1,22 +1,16 @@
 import { useState } from 'react'
-import CategoryFilter from './CategoryFilter'
-import vocabulary from '../data/vocabulary.json'
+import SectionBanner from './SectionBanner'
 import { basicSentenceCheck } from '../utils/basicSentenceCheck'
 import { getCheckSentenceUrl, hasRemoteApi } from '../utils/api'
 
-export default function WriteMode() {
-  const [category, setCategory] = useState('Tất cả')
+export default function WriteMode({ vocabulary, sectionId }) {
   const [wordIndex, setWordIndex] = useState(0)
   const [sentence, setSentence] = useState('')
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
 
-  const filtered = category === 'Tất cả'
-    ? vocabulary
-    : vocabulary.filter((w) => w.category === category)
-
-  const current = filtered[wordIndex] || vocabulary[0]
+  const current = vocabulary[wordIndex] || vocabulary[0]
 
   const checkSentence = async () => {
     if (!sentence.trim()) {
@@ -57,15 +51,19 @@ export default function WriteMode() {
   }
 
   const nextWord = () => {
-    setWordIndex((i) => (i + 1) % filtered.length)
+    setWordIndex((i) => (i + 1) % vocabulary.length)
     setSentence('')
     setResult(null)
     setError('')
   }
 
+  if (!current) {
+    return <p className="empty-msg">Không có từ vựng trong phần này.</p>
+  }
+
   return (
     <div className="mode-panel">
-      <CategoryFilter selected={category} onChange={(c) => { setCategory(c); setWordIndex(0); setSentence(''); setResult(null) }} />
+      <SectionBanner sectionId={sectionId} wordCount={vocabulary.length} />
 
       <div className="write-card">
         <span className="card-category">{current.category}</span>
